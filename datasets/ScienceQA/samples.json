@@ -1,1 +1,1502 @@
-[{"image_path": "datasets/ScienceQA/images/image_0.png", "request": "Which of the following could Gordon's test show?\n\n 0. if the spacecraft was damaged when using a parachute with a 1 m vent going 200 km per hour\n 1. how steady a parachute with a 1 m vent was at 200 km per hour\n 2. whether a parachute with a 1 m vent would swing too much at 400 km per hour", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_1.png", "request": "What is the name of the colony shown?\n\n 0. Maryland\n 1. New Hampshire\n 2. Rhode Island\n 3. Vermont", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_2.png", "request": "Which of these organisms contains matter that was once part of the lichen?\n\n 0. bilberry\n 1. mushroom", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_3.png", "request": "What is the expected ratio of offspring with a woolly fleece to offspring with a hairy fleece? Choose the most likely ratio.\n\n 0. 0:4\n 1. 4:0\n 2. 2:2\n 3. 1:3\n 4. 3:1", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_4.png", "request": "Which property do these three objects have in common?\n\n 0. shiny\n 1. slippery\n 2. opaque", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_5.png", "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnitude of the magnetic force is the same in both pairs.\n 1. The magnitude of the magnetic force is smaller in Pair 1.\n 2. The magnitude of the magnetic force is smaller in Pair 2.", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_6.png", "request": "What is the capital of Wyoming?\n\n 0. Phoenix\n 1. Baton Rouge\n 2. Honolulu\n 3. Cheyenne", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_7.png", "request": "Is the following statement about our solar system true or false?\nThe largest planet is made mainly of ice.\n\n 0. true\n 1. false", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_8.png", "request": "Which of the following organisms is the primary consumer in this food web?\n\n 0. copepod\n 1. black crappie\n 2. bacteria", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_9.png", "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnetic force is stronger in Pair 2.\n 1. The magnetic force is stronger in Pair 1.\n 2. The strength of the magnetic force is the same in both pairs.", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_10.png", "request": "Which better describes the Daintree rain forest ecosystem?\n\n 0. It has year-round rain. It also has soil that is poor in nutrients.\n 1. It has cold winters. It also has many different types of organisms.", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_11.png", "request": "What is the capital of Delaware?\n\n 0. Montpelier\n 1. Trenton\n 2. Dover\n 3. Georgetown", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_12.png", "request": "Which of these states is farthest north?\n\n 0. Maine\n 1. South Carolina\n 2. Kansas\n 3. Delaware", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_13.png", "request": "What can Greta and Allie trade to each get what they want?\n\n 0. Greta can trade her tomatoes for Allie's sandwich.\n 1. Allie can trade her broccoli for Greta's oranges.\n 2. Allie can trade her almonds for Greta's tomatoes.\n 3. Greta can trade her tomatoes for Allie's broccoli.", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_14.png", "request": "What is the capital of Colorado?\n\n 0. Boulder\n 1. Phoenix\n 2. Colorado Springs\n 3. Denver", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_15.png", "request": "Which continent is highlighted?\n\n 0. Africa\n 1. North America\n 2. South America\n 3. Asia", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_16.png", "request": "Identify the question that Chase's experiment can best answer.\n\n 0. Do cardinals eat more seeds per visit from feeders containing sunflower seeds compared to feeders containing flax seeds?\n 1. Do cardinals visit feeders containing sunflower seeds more often than feeders containing flax seeds?", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_17.png", "request": "Which material is this path made of?\n\n 0. plastic\n 1. brick", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_18.png", "request": "Select the bird below.\n\n 0. cane toad\n 1. ostrich", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_19.png", "request": "Which property do these three objects have in common?\n\n 0. blue\n 1. hard\n 2. sticky", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_20.png", "request": "Which of the following was a dependent variable in this experiment?\n\n 0. the temperature of the heating pad\n 1. the number of days until a seed germinated", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_21.png", "request": "What is the capital of Mississippi?\n\n 0. Detroit\n 1. Jackson\n 2. Biloxi\n 3. Topeka", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_22.png", "request": "Which property matches this object?\n\n 0. stretchy\n 1. blue", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_23.png", "request": "Is Rafflesia arnoldii made up of many cells?\n\n 0. yes\n 1. no", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_24.png", "request": "What is the expected ratio of offspring with smooth fruit to offspring with fuzzy fruit? Choose the most likely ratio.\n\n 0. 3:1\n 1. 2:2\n 2. 1:3\n 3. 4:0\n 4. 0:4", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_25.png", "request": "Which of the following could Cooper's test show?\n\n 0. if at least 20% of the park would be shaded by trees in each design\n 1. which design would have the least traffic noise in the concert area\n 2. which design would have the greatest distance between the concert area and the road", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_26.png", "request": "Will these magnets attract or repel each other?\n\n 0. repel\n 1. attract", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_27.png", "request": "What is the capital of Connecticut?\n\n 0. Hartford\n 1. Annapolis\n 2. New Haven\n 3. Dover", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_28.png", "request": "Which ocean is highlighted?\n\n 0. the Indian Ocean\n 1. the Atlantic Ocean\n 2. the Pacific Ocean\n 3. the Southern Ocean", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_29.png", "request": "Which statement describes the Yasuni National Park ecosystem?\n\n 0. It has mostly small plants.\n 1. It has many different types of organisms.\n 2. It has soil that is rich in nutrients.", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_30.png", "request": "Which property do these three objects have in common?\n\n 0. fragile\n 1. bouncy\n 2. yellow", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_31.png", "request": "Look at the models of molecules below. Select the elementary substance.\n\n 0. carbon tetrachloride\n 1. acetaldehyde\n 2. bromine", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_32.png", "request": "Select the organism in the same species as the pink-backed pelican.\n\n 0. Balearica pavonina\n 1. Tyto alba\n 2. Pelecanus rufescens", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_33.png", "request": "What is the capital of North Dakota?\n\n 0. Des Moines\n 1. Bismarck\n 2. Madison\n 3. Fargo", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_34.png", "request": "Identify the question that Jeremiah's experiment can best answer.\n\n 0. Do cardinals visit feeders containing sunflower seeds more often than feeders containing flax seeds?\n 1. Do cardinals eat more seeds per visit from feeders containing sunflower seeds compared to feeders containing flax seeds?", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_35.png", "request": "What is the capital of Massachusetts?\n\n 0. Cambridge\n 1. Plymouth\n 2. Boston\n 3. Dover", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_36.png", "request": "Which animal is also adapted to be camouflaged in the snow?\n\n 0. short-tailed weasel\n 1. common hawk-cuckoo", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_37.png", "request": "Select the organism in the same genus as the Goliath heron.\n\n 0. Falco sparverius\n 1. Ardea herodias\n 2. Tigrisoma mexicanum", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_38.png", "request": "Which country is highlighted?\n\n 0. Barbados\n 1. the Dominican Republic\n 2. Saint Lucia\n 3. Saint Vincent and the Grenadines", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_39.png", "request": "Will these magnets attract or repel each other?\n\n 0. repel\n 1. attract", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_40.png", "request": "Can Fromia monilis cells make their own food?\n\n 0. yes\n 1. no", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_41.png", "request": "Does this passage describe the weather or the climate?\n\n 0. weather\n 1. climate", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_42.png", "request": "Which country is highlighted?\n\n 0. Vanuatu\n 1. Tonga\n 2. the Marshall Islands\n 3. Nauru", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_43.png", "request": "Which rhetorical appeal is primarily used in this ad?\n\n 0. logos (reason)\n 1. pathos (emotion)\n 2. ethos (character)", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_44.png", "request": "Which animal is also adapted to be camouflaged among dead leaves?\n\n 0. strawberry poison frog\n 1. Surinam horned frog", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_45.png", "request": "Identify the question that Helen's experiment can best answer.\n\n 0. Does fabric turn darker when soaked in a mixture of black dye and water for 15 minutes compared to 30 minutes?\n 1. Does linen fabric turn darker than cotton fabric when soaked in a mixture of black dye and water?", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_46.png", "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnetic force is stronger in Pair 1.\n 1. The magnetic force is stronger in Pair 2.\n 2. The strength of the magnetic force is the same in both pairs.", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_47.png", "request": "What is the capital of Washington?\n\n 0. Olympia\n 1. Burlington\n 2. Seattle\n 3. Spokane", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_48.png", "request": "Which solution has a higher concentration of green particles?\n\n 0. Solution B\n 1. neither; their concentrations are the same\n 2. Solution A", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_49.png", "request": "Which is this organism's scientific name?\n\n 0. comet moth\n 1. Argema mittrei", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_50.png", "request": "Which property do these three objects have in common?\n\n 0. smooth\n 1. stretchy\n 2. fuzzy", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_51.png", "request": "Which continent is highlighted?\n\n 0. North America\n 1. Africa\n 2. Asia", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_52.png", "request": "Which of these states is farthest north?\n\n 0. Florida\n 1. Illinois\n 2. Ohio\n 3. New Hampshire", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_53.png", "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnitude of the magnetic force is smaller in Pair 2.\n 1. The magnitude of the magnetic force is smaller in Pair 1.\n 2. The magnitude of the magnetic force is the same in both pairs.", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_54.png", "request": "Which animal's legs are also adapted for wading?\n\n 0. kookaburra\n 1. Eurasian spoonbill", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_55.png", "request": "Which rock is more likely to form from sediment deposited in a desert?\n\n 0. Sandstone forms from layers of sand.\n 1. Shale forms from layers of mud.", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_56.png", "request": "As Rusty pulls on the toy, what is the direction of the opposing force?\n\n 0. away from Coco\n 1. toward Coco", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_57.png", "request": "What is the capital of Hawaii?\n\n 0. Portland\n 1. Bismarck\n 2. Honolulu\n 3. Juneau", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_58.png", "request": "What is the capital of Washington?\n\n 0. Santa Fe\n 1. Lansing\n 2. Olympia\n 3. Seattle", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_59.png", "request": "What is the probability that an American curl cat produced by this cross will be homozygous dominant for the ear type gene?\n\n 0. 0/4\n 1. 2/4\n 2. 4/4\n 3. 3/4\n 4. 1/4", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_60.png", "request": "What is the capital of Oklahoma?\n\n 0. Boise\n 1. Oklahoma City\n 2. Little Rock\n 3. Birmingham", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_61.png", "request": "Identify the question that Jaden and Ron's experiment can best answer.\n\n 0. Do ping pong balls travel farther when launched from a 30\u00b0 angle compared to a 45\u00b0 angle?\n 1. Do ping pong balls stop rolling along the ground sooner after being launched from a 30\u00b0 angle or a 45\u00b0 angle?", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_62.png", "request": "Complete the statement.\nHydrogen is ().\n\n 0. an elementary substance\n 1. a compound", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_63.png", "request": "What is the name of the colony shown?\n\n 0. New Jersey\n 1. South Carolina\n 2. West Virginia\n 3. Rhode Island", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_64.png", "request": "What is the capital of Kansas?\n\n 0. Des Moines\n 1. Wichita\n 2. Topeka\n 3. Lincoln", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_65.png", "request": "Which continent is highlighted?\n\n 0. North America\n 1. Africa\n 2. Asia\n 3. South America", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_66.png", "request": "Identify the question that Linda and Bob's experiment can best answer.\n\n 0. Does Linda's snowboard slide down a hill in less time when it has a thin layer of wax or a thick layer of wax?\n 1. Does Linda's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax?", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_67.png", "request": "What is the capital of Nevada?\n\n 0. Sacramento\n 1. Las Vegas\n 2. Carson City\n 3. Jefferson City", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_68.png", "request": "What is the name of the colony shown?\n\n 0. Maine\n 1. Maryland\n 2. New Hampshire\n 3. North Carolina", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_69.png", "request": "What is the capital of New Mexico?\n\n 0. Albuquerque\n 1. Santa Fe\n 2. Honolulu\n 3. Boston", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_70.png", "request": "Which continent is highlighted?\n\n 0. Europe\n 1. Asia\n 2. South America\n 3. Australia", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_71.png", "request": "Will these magnets attract or repel each other?\n\n 0. repel\n 1. attract", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_72.png", "request": "Which animal's limbs are also adapted for climbing trees?\n\n 0. three-toed sloth\n 1. sea turtle", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_73.png", "request": "Which type of relationship is formed when a rat tapeworm attaches itself to a rat's intestine?\n\n 0. parasitic\n 1. mutualistic\n 2. commensal", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_74.png", "request": "What is the capital of California?\n\n 0. San Francisco\n 1. Sacramento\n 2. Jefferson City\n 3. Lansing", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_75.png", "request": "Which property do these three objects have in common?\n\n 0. salty\n 1. scratchy\n 2. sticky", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_76.png", "request": "Based on the arrows, which of the following living things is a decomposer?\n\n 0. kelp\n 1. bat star", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_77.png", "request": "Is marble a mineral or a rock?\n\n 0. rock\n 1. mineral", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_78.png", "request": "Complete the statement.\nEthane is ().\n\n 0. an elementary substance\n 1. a compound", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_79.png", "request": "What is the capital of Rhode Island?\n\n 0. Fayetteville\n 1. Huntington\n 2. Providence\n 3. Newport", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_80.png", "request": "Which is this organism's scientific name?\n\n 0. Gavia immer\n 1. common loon", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_81.png", "request": "Which of these states is farthest west?\n\n 0. Missouri\n 1. Florida\n 2. Montana\n 3. Oregon", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_82.png", "request": "Which property do these three objects have in common?\n\n 0. slippery\n 1. transparent\n 2. yellow", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_83.png", "request": "Which statement describes the Cape Breton Highlands National Park ecosystem?\n\n 0. It has soil that is rich in nutrients.\n 1. It has many evergreen trees.", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_84.png", "request": "Which of these organisms contains matter that was once part of the lichen?\n\n 0. mushroom\n 1. short-tailed weasel\n 2. brown lemming\n 3. rough-legged hawk\n 4. bilberry", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_85.png", "request": "Will these magnets attract or repel each other?\n\n 0. attract\n 1. repel", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_86.png", "request": "What is the name of the colony shown?\n\n 0. New Hampshire\n 1. Vermont\n 2. New York\n 3. Delaware", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_87.png", "request": "Which bird's beak is also adapted to catch insects?\n\n 0. barn swallow\n 1. hanging parrot", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_88.png", "request": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\n\n 0. neither; the samples have the same temperature\n 1. sample A\n 2. sample B", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_89.png", "request": "What is the capital of Connecticut?\n\n 0. Columbia\n 1. Bridgeport\n 2. New Haven\n 3. Hartford", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_90.png", "request": "What is the capital of Ohio?\n\n 0. Wilmington\n 1. Reno\n 2. Cleveland\n 3. Columbus", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_91.png", "request": "Is dolerite a mineral or a rock?\n\n 0. mineral\n 1. rock", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_92.png", "request": "What evidence of a wildfire does this picture show?\n\n 0. The grass is brown and dry.\n 1. Some of the grass on the ground is burning.", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_93.png", "request": "What can Austen and Naomi trade to each get what they want?\n\n 0. Naomi can trade her broccoli for Austen's oranges.\n 1. Austen can trade his tomatoes for Naomi's broccoli.\n 2. Austen can trade his tomatoes for Naomi's sandwich.\n 3. Naomi can trade her almonds for Austen's tomatoes.", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_94.png", "request": "Will these magnets attract or repel each other?\n\n 0. repel\n 1. attract", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_95.png", "request": "Based on the arrows, which of the following organisms is a consumer?\n\n 0. mushroom\n 1. lichen", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_96.png", "request": "Which solution has a higher concentration of pink particles?\n\n 0. neither; their concentrations are the same\n 1. Solution B\n 2. Solution A", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_97.png", "request": "Identify the question that Robert's experiment can best answer.\n\n 0. Do steel nails take fewer days to rust in water compared to vinegar?\n 1. Do steel nails rust in fewer days when submerged in a large volume of liquid compared to a small volume?", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_98.png", "request": "Does this passage describe the weather or the climate?\n\n 0. weather\n 1. climate", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_99.png", "request": "Which country is highlighted?\n\n 0. Haiti\n 1. Trinidad and Tobago\n 2. Cuba\n 3. the Dominican Republic", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_100.png", "request": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\n\n 0. neither; the samples have the same temperature\n 1. sample B\n 2. sample A", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_101.png", "request": "Which solution has a higher concentration of green particles?\n\n 0. Solution B\n 1. neither; their concentrations are the same\n 2. Solution A", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_102.png", "request": "What is the name of the colony shown?\n\n 0. Pennsylvania\n 1. Vermont\n 2. Tennessee\n 3. Michigan", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_103.png", "request": "What is the capital of Hawaii?\n\n 0. Hilo\n 1. Carson City\n 2. Honolulu\n 3. Juneau", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_104.png", "request": "In this food chain, the yucca moth is a consumer. Why?\n\n 0. It makes its own food.\n 1. It eats another living thing.", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_105.png", "request": "What is the capital of Kentucky?\n\n 0. Lexington\n 1. Frankfort\n 2. Anchorage\n 3. Baton Rouge", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_106.png", "request": "Can Polytrichum commune cells make their own food?\n\n 0. yes\n 1. no", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_107.png", "request": "Select the amphibian below.\n\n 0. brown tree frog\n 1. woodpecker", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_108.png", "request": "Complete the statement.\nBeryllium is ().\n\n 0. an elementary substance\n 1. a compound", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_109.png", "request": "Which of the following could Edwin's test show?\n\n 0. how much athletes would sweat in the fabric\n 1. if the sample fabric would absorb one drop of water in less than one second\n 2. how long it would take the sample fabric to dry after it absorbed one drop of water", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_110.png", "request": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\n\n 0. sample A\n 1. sample B\n 2. neither; the samples have the same temperature", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_111.png", "request": "What is the capital of Massachusetts?\n\n 0. Dover\n 1. Boston\n 2. Salem\n 3. Augusta", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_112.png", "request": "What is the Morelet's crocodile's scientific name?\n\n 0. Crocodylus moreletii\n 1. Crocodylus anthropophagus", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_113.png", "request": "Which material is this flower vase made of?\n\n 0. silk\n 1. glass", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_114.png", "request": "Will these magnets attract or repel each other?\n\n 0. repel\n 1. attract", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_115.png", "request": "What is the capital of Kansas?\n\n 0. Wichita\n 1. Pierre\n 2. Springfield\n 3. Topeka", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_116.png", "request": "Which property do these three objects have in common?\n\n 0. translucent\n 1. opaque\n 2. fragile", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_117.png", "request": "What can Turner and Mona trade to each get what they want?\n\n 0. Turner can trade his tomatoes for Mona's broccoli.\n 1. Turner can trade his tomatoes for Mona's carrots.\n 2. Mona can trade her broccoli for Turner's oranges.\n 3. Mona can trade her almonds for Turner's tomatoes.", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_118.png", "request": "Which property matches this object?\n\n 0. stretchy\n 1. transparent", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_119.png", "request": "Which country is highlighted?\n\n 0. Tuvalu\n 1. Australia\n 2. New Zealand\n 3. Papua New Guinea", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_120.png", "request": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\n\n 0. neither; the samples have the same temperature\n 1. sample A\n 2. sample B", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_121.png", "request": "Does this passage describe the weather or the climate?\n\n 0. climate\n 1. weather", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_122.png", "request": "Which material is this egg carton made of?\n\n 0. wood\n 1. styrofoam", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_123.png", "request": "What is the capital of Florida?\n\n 0. Tampa\n 1. Little Rock\n 2. Laramie\n 3. Tallahassee", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_124.png", "request": "Identify the question that Kira's experiment can best answer.\n\n 0. Does linen fabric turn darker than cotton fabric when soaked in a mixture of black dye and water?\n 1. Does fabric turn darker when soaked in a mixture of black dye and water for 15 minutes compared to 30 minutes?", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_125.png", "request": "Which country is highlighted?\n\n 0. the Federated States of Micronesia\n 1. New Zealand\n 2. Tuvalu\n 3. Tonga", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_126.png", "request": "Which property do these three objects have in common?\n\n 0. shiny\n 1. fuzzy\n 2. blue", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_127.png", "request": "What is the name of the colony shown?\n\n 0. Maryland\n 1. Virginia\n 2. Washington, D.C.\n 3. Rhode Island", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_128.png", "request": "Which of these states is farthest east?\n\n 0. Nebraska\n 1. Louisiana\n 2. Idaho\n 3. Arizona", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_129.png", "request": "Which country is highlighted?\n\n 0. The Bahamas\n 1. Cuba\n 2. Jamaica\n 3. Haiti", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_130.png", "request": "Which month is the hottest on average in Rome?\n\n 0. December, January, and February\n 1. July and August\n 2. March and April", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_131.png", "request": "What is the name of the colony shown?\n\n 0. New York\n 1. Rhode Island\n 2. North Carolina\n 3. New Jersey", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_132.png", "request": "Which animal's mouth is also adapted to tear through meat?\n\n 0. tiger\n 1. marmot", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_133.png", "request": "Is the water in a sink a solid or a liquid?\n\n 0. a liquid\n 1. a solid", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_134.png", "request": "What is the capital of Maryland?\n\n 0. Juneau\n 1. Augusta\n 2. Annapolis\n 3. Providence", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_135.png", "request": "Which country is highlighted?\n\n 0. Palau\n 1. Nauru\n 2. the Federated States of Micronesia\n 3. New Zealand", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_136.png", "request": "What is the capital of Utah?\n\n 0. Helena\n 1. Albany\n 2. Salt Lake City\n 3. Provo", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_137.png", "request": "What is the capital of New Jersey?\n\n 0. Newark\n 1. Montpelier\n 2. Jersey City\n 3. Trenton", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_138.png", "request": "Which of the following organisms is the decomposer in this food web?\n\n 0. green algae\n 1. water mold\n 2. golden algae", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_139.png", "request": "Select the organism in the same genus as the North American beaver.\n\n 0. Goura scheepmakeri\n 1. Castor fiber\n 2. Cervus canadensis", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_140.png", "request": "Which animal is also adapted to be camouflaged in the snow?\n\n 0. Arctic hare\n 1. camel", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_141.png", "request": "Which ocean is highlighted?\n\n 0. the Indian Ocean\n 1. the Atlantic Ocean\n 2. the Pacific Ocean\n 3. the Southern Ocean", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_142.png", "request": "Which type of relationship is formed when a bristle worm lives on a white sea urchin?\n\n 0. mutualistic\n 1. commensal\n 2. parasitic", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_143.png", "request": "Which property do these three objects have in common?\n\n 0. rough\n 1. yellow\n 2. sticky", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_144.png", "request": "Which of these states is farthest east?\n\n 0. Georgia\n 1. Delaware\n 2. North Dakota\n 3. Colorado", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_145.png", "request": "Which is this organism's scientific name?\n\n 0. Carcharodon carcharias\n 1. great white shark", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_146.png", "request": "Which month is the wettest on average in Christchurch?\n\n 0. August\n 1. April\n 2. May", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_147.png", "request": "Will these magnets attract or repel each other?\n\n 0. repel\n 1. attract", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_148.png", "request": "Which ocean is highlighted?\n\n 0. the Southern Ocean\n 1. the Pacific Ocean\n 2. the Atlantic Ocean\n 3. the Indian Ocean", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_149.png", "request": "What is the capital of Colorado?\n\n 0. Olympia\n 1. Denver\n 2. Carson City\n 3. Louisville", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_150.png", "request": "Which country is highlighted?\n\n 0. Australia\n 1. the Marshall Islands\n 2. New Zealand\n 3. Papua New Guinea", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_151.png", "request": "Which of these states is farthest south?\n\n 0. Missouri\n 1. Michigan\n 2. Maine\n 3. Oregon", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_152.png", "request": "Which of these cities is marked on the map?\n\n 0. Miami\n 1. Atlanta\n 2. Nashville\n 3. Oklahoma City", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_153.png", "request": "In this food web, which organism contains matter that eventually moves to the bat star?\n\n 0. sea cucumber\n 1. sea otter\n 2. phytoplankton", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_154.png", "request": "Identify the question that Dakota's experiment can best answer.\n\n 0. Do more tomato seedlings grow when they are planted in soil with fertilizer compared to soil without fertilizer?\n 1. Does the humidity level where tomato seeds are planted affect the number of tomato seedlings that grow?", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_155.png", "request": "What is the capital of California?\n\n 0. Sacramento\n 1. Reno\n 2. Los Angeles\n 3. San Francisco", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_156.png", "request": "Which continent is highlighted?\n\n 0. Australia\n 1. Africa\n 2. South America\n 3. Europe", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_157.png", "request": "Identify the question that Harry's experiment can best answer.\n\n 0. Do steel nails take fewer days to rust in water compared to vinegar?\n 1. Do steel nails rust in fewer days when submerged in a large volume of liquid compared to a small volume?", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_158.png", "request": "Is the following statement about our solar system true or false?\nOf the four smallest planets, two are made mainly of gas.\n\n 0. false\n 1. true", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_159.png", "request": "What is the capital of Colorado?\n\n 0. Denver\n 1. Concord\n 2. Columbia\n 3. Charlotte", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_160.png", "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnitude of the magnetic force is greater in Pair 2.\n 1. The magnitude of the magnetic force is greater in Pair 1.\n 2. The magnitude of the magnetic force is the same in both pairs.", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_161.png", "request": "What is the expected ratio of offspring with a normal-sized body to offspring with a dwarf body? Choose the most likely ratio.\n\n 0. 1:3\n 1. 4:0\n 2. 0:4\n 3. 2:2\n 4. 3:1", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_162.png", "request": "Select the fish below.\n\n 0. water buffalo\n 1. poison dart frog\n 2. great white shark\n 3. penguin", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_163.png", "request": "What can Clara and Harry trade to each get what they want?\n\n 0. Harry can trade his almonds for Clara's tomatoes.\n 1. Clara can trade her tomatoes for Harry's carrots.\n 2. Harry can trade his broccoli for Clara's oranges.\n 3. Clara can trade her tomatoes for Harry's broccoli.", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_164.png", "request": "Which property do these two objects have in common?\n\n 0. sour\n 1. stretchy", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_165.png", "request": "What is the name of the colony shown?\n\n 0. North Carolina\n 1. Mississippi\n 2. New York\n 3. Massachusetts", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_166.png", "request": "What is the name of the colony shown?\n\n 0. Massachusetts\n 1. Virginia\n 2. Georgia\n 3. New Hampshire", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_167.png", "request": "Which of the following could Charlotte's test show?\n\n 0. if the blade guards would break in a crash\n 1. if adding the blade guards made the drone fly poorly\n 2. how much the drone weighed with the blade guards", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_168.png", "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnitude of the magnetic force is greater in Pair 2.\n 1. The magnitude of the magnetic force is the same in both pairs.\n 2. The magnitude of the magnetic force is greater in Pair 1.", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_169.png", "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnetic force is stronger in Pair 2.\n 1. The strength of the magnetic force is the same in both pairs.\n 2. The magnetic force is stronger in Pair 1.", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_170.png", "request": "Which of the following organisms is the omnivore in this food web?\n\n 0. black racer\n 1. gray fox\n 2. silver maple\n 3. black bear", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_171.png", "request": "Which property do these four objects have in common?\n\n 0. opaque\n 1. fragile\n 2. smooth", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_172.png", "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnitude of the magnetic force is smaller in Pair 1.\n 1. The magnitude of the magnetic force is smaller in Pair 2.\n 2. The magnitude of the magnetic force is the same in both pairs.", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_173.png", "request": "What can Reid and Daniel trade to each get what they want?\n\n 0. Reid can trade his tomatoes for Daniel's carrots.\n 1. Daniel can trade his broccoli for Reid's oranges.\n 2. Reid can trade his tomatoes for Daniel's broccoli.\n 3. Daniel can trade his almonds for Reid's tomatoes.", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_174.png", "request": "Which property matches this object?\n\n 0. flexible\n 1. fragile", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_175.png", "request": "Identify the question that Jeanette's experiment can best answer.\n\n 0. Do circuits that include iron produce dimmer light than circuits that include copper?\n 1. Can light bulbs stay lit longer when circuits include copper or when circuits include iron?", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_176.png", "request": "Which property do these two objects have in common?\n\n 0. sour\n 1. blue", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_177.png", "request": "Identify the question that Wanda and Ernest's experiment can best answer.\n\n 0. Does Wanda's snowboard slide down a hill in less time when it has a thin layer of wax or a thick layer of wax?\n 1. Does Wanda's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax?", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_178.png", "request": "What is the direction of this pull?\n\n 0. away from the sled dog team\n 1. toward the sled dog team", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_179.png", "request": "Which state is highlighted?\n\n 0. Ohio\n 1. South Dakota\n 2. Nebraska\n 3. Indiana", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_180.png", "request": "Complete the sentence.\nChristianity and () originated in the same region of the world.\n\n 0. Buddhism\n 1. Judaism\n 2. Yoruba\n 3. Hinduism", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_181.png", "request": "Which continent is highlighted?\n\n 0. North America\n 1. Europe\n 2. Australia\n 3. South America", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_182.png", "request": "Which bird's beak is also adapted to crack large, hard nuts?\n\n 0. African gray parrot\n 1. white-tipped sicklebill", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_183.png", "request": "Which solution has a higher concentration of green particles?\n\n 0. Solution A\n 1. neither; their concentrations are the same\n 2. Solution B", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_184.png", "request": "What is the name of the colony shown?\n\n 0. Maryland\n 1. New York\n 2. Illinois\n 3. Connecticut", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_185.png", "request": "What is the capital of New Jersey?\n\n 0. Augusta\n 1. Montpelier\n 2. Newark\n 3. Trenton", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_186.png", "request": "What is the capital of New Mexico?\n\n 0. Albuquerque\n 1. Santa Fe\n 2. Carson City\n 3. Lexington", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_187.png", "request": "Which trait did Palaeopython have? Select the trait you can observe on the fossil.\n\n 0. black stripes on its skin\n 1. large fins on its body\n 2. a long, thin body", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_188.png", "request": "Is sphalerite a mineral?\n\n 0. no\n 1. yes", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_189.png", "request": "Select the organism in the same species as the Eurasian beaver.\n\n 0. Castor fiber\n 1. Ovis canadensis\n 2. Lontra canadensis", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_190.png", "request": "Select the organism in the same species as the snowy owl.\n\n 0. Bubo scandiacus\n 1. Ardea herodias\n 2. Pelecanus erythrorhynchos", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_191.png", "request": "Which property do these three objects have in common?\n\n 0. flexible\n 1. transparent\n 2. opaque", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_192.png", "request": "Which is the main persuasive appeal used in this ad?\n\n 0. pathos (emotion)\n 1. ethos (character)\n 2. logos (reason)", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_193.png", "request": "What is the name of the colony shown?\n\n 0. Maine\n 1. Rhode Island\n 2. New York\n 3. Virginia", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_194.png", "request": "Select the mammal below.\n\n 0. gray wolf\n 1. keel-billed toucan", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_195.png", "request": "What is the name of the colony shown?\n\n 0. New Jersey\n 1. New York\n 2. Maryland\n 3. Delaware", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_196.png", "request": "Will these magnets attract or repel each other?\n\n 0. repel\n 1. attract", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_197.png", "request": "Will these magnets attract or repel each other?\n\n 0. attract\n 1. repel", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_198.png", "request": "Which bird's beak is also adapted to crack large, hard nuts?\n\n 0. bald ibis\n 1. scarlet macaw", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_199.png", "request": "Which of the following could Helen's test show?\n\n 0. if adding the blade guards made the drone fly poorly\n 1. if the blade guards would break in a crash\n 2. how much the drone weighed with the blade guards", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_200.png", "request": "Look at the models of molecules below. Select the elementary substance.\n\n 0. acetaldehyde\n 1. hydrazine\n 2. ozone", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_201.png", "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnetic force is weaker in Pair 1.\n 1. The magnetic force is weaker in Pair 2.\n 2. The strength of the magnetic force is the same in both pairs.", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_202.png", "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The strength of the magnetic force is the same in both pairs.\n 1. The magnetic force is weaker in Pair 2.\n 2. The magnetic force is weaker in Pair 1.", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_203.png", "request": "Which of the following could Marcy and Brenda's test show?\n\n 0. if a new batch of concrete was firm enough to use\n 1. if the concrete from each batch took the same amount of time to dry", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_204.png", "request": "The United States has a federal system. Based on these definitions, which of these statements would most likely be made by a person who lives under a federal system?\n\n 0. My national government officials decide most issues that come up.\n 1. I only pay attention to state politics since the national government has almost no power.\n 2. Both my state and national government officials have power over important issues.", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_205.png", "request": "Identify the question that Lacey's experiment can best answer.\n\n 0. Does the amount of water in a glass affect whether eggs sink or float in the water?\n 1. Are eggs more likely to float in fresh water or salty water?", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_206.png", "request": "Will these magnets attract or repel each other?\n\n 0. attract\n 1. repel", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_207.png", "request": "Which country is highlighted?\n\n 0. Jamaica\n 1. Grenada\n 2. Cuba\n 3. Haiti", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_208.png", "request": "What is the name of the colony shown?\n\n 0. Connecticut\n 1. Pennsylvania\n 2. New Hampshire\n 3. Vermont", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_209.png", "request": "During this time, thermal energy was transferred from () to ().\n\n 0. the surroundings . . . each vial\n 1. each vial . . . the surroundings", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_210.png", "request": "What is the capital of Pennsylvania?\n\n 0. Hartford\n 1. Harrisburg\n 2. Nashville\n 3. Pittsburgh", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_211.png", "request": "Will these magnets attract or repel each other?\n\n 0. repel\n 1. attract", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_212.png", "request": "What can Arianna and Clarence trade to each get what they want?\n\n 0. Arianna can trade her tomatoes for Clarence's sandwich.\n 1. Arianna can trade her tomatoes for Clarence's broccoli.\n 2. Clarence can trade his broccoli for Arianna's oranges.\n 3. Clarence can trade his almonds for Arianna's tomatoes.", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_213.png", "request": "Is the water in a glass a solid, a liquid, or a gas?\n\n 0. a solid\n 1. a gas\n 2. a liquid", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_214.png", "request": "What is the capital of New York?\n\n 0. Montpelier\n 1. New York City\n 2. Louisville\n 3. Albany", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_215.png", "request": "Is Bertholletia excelsa made up of one cell?\n\n 0. yes\n 1. no", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_216.png", "request": "Is the following statement about our solar system true or false?\nThree-quarters of the planets are larger than Earth.\n\n 0. false\n 1. true", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_217.png", "request": "Which animal's skin is better adapted as a warning sign to ward off predators?\n\n 0. lichen katydid\n 1. opalescent nudibranch", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_218.png", "request": "Which three months have over 200millimeters of precipitation in Singapore?\n\n 0. November, December, and January\n 1. August, September, and October\n 2. May, June, and July", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_219.png", "request": "Is scoria a mineral or a rock?\n\n 0. rock\n 1. mineral", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_220.png", "request": "What is the capital of Ohio?\n\n 0. Cincinnati\n 1. Columbus\n 2. Frankfort\n 3. Cleveland", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_221.png", "request": "Which animal's legs are also adapted for wading?\n\n 0. common kingfisher\n 1. painted stork", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_222.png", "request": "What is the probability that a Syrian hamster produced by this cross will have long fur?\n\n 0. 2/4\n 1. 3/4\n 2. 4/4\n 3. 1/4\n 4. 0/4", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_223.png", "request": "Which of these states is farthest south?\n\n 0. Kansas\n 1. Connecticut\n 2. Ohio\n 3. South Dakota", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_224.png", "request": "Will these magnets attract or repel each other?\n\n 0. attract\n 1. repel", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_225.png", "request": "Which country is highlighted?\n\n 0. Saint Vincent and the Grenadines\n 1. Saint Lucia\n 2. Grenada\n 3. Haiti", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_226.png", "request": "Which of the following could Rose's test show?\n\n 0. if the new turbine could turn easily\n 1. whether the new turbine could produce 10% more electricity\n 2. how much the new turbine would weigh", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_227.png", "request": "Which country is highlighted?\n\n 0. Solomon Islands\n 1. Papua New Guinea\n 2. New Zealand\n 3. Australia", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_228.png", "request": "What is the capital of Oregon?\n\n 0. Salem\n 1. Denver\n 2. Milwaukee\n 3. Portland", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_229.png", "request": "What is the direction of this pull?\n\n 0. toward the pliers\n 1. away from the pliers", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_230.png", "request": "What is the capital of Virginia?\n\n 0. Austin\n 1. Arlington\n 2. Montpelier\n 3. Richmond", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_231.png", "request": "What is the capital of Maryland?\n\n 0. Augusta\n 1. Dover\n 2. Annapolis\n 3. Phoenix", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_232.png", "request": "What is the capital of Missouri?\n\n 0. Salem\n 1. Saint Louis\n 2. Jefferson City\n 3. Kansas City", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_233.png", "request": "Identify the question that Nate's experiment can best answer.\n\n 0. Can pennies hold more drops of water mixed with dish soap or water mixed with hand soap?\n 1. Can pennies hold more drops of pure water or water mixed with hand soap?", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_234.png", "request": "Which ocean is highlighted?\n\n 0. the Indian Ocean\n 1. the Southern Ocean\n 2. the Pacific Ocean\n 3. the Atlantic Ocean", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_235.png", "request": "Which of the following statements is supported by the passage?\n\n 0. Scientists can study air masses to predict weather events.\n 1. Meteorologists are scientists who study meteors.", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_236.png", "request": "Will these magnets attract or repel each other?\n\n 0. attract\n 1. repel", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_237.png", "request": "Which country is highlighted?\n\n 0. Solomon Islands\n 1. the Marshall Islands\n 2. Tonga\n 3. Fiji", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_238.png", "request": "What evidence of an earthquake does this picture show?\n\n 0. Some of the houses have broken roofs and walls.\n 1. The houses have windows.", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_239.png", "request": "Is the following statement about our solar system true or false?\nThree-quarters of the planets are larger than Venus.\n\n 0. false\n 1. true", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_240.png", "request": "In this experiment, which were part of a control group?\n\n 0. the containers that did not get worms\n 1. the containers that got worms", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_241.png", "request": "What instrument does Yo-Yo play?\n\n 0. the violin\n 1. the cello", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_242.png", "request": "Which property do these four objects have in common?\n\n 0. flexible\n 1. salty\n 2. smooth", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_243.png", "request": "What is the capital of Colorado?\n\n 0. Harrisburg\n 1. Denver\n 2. Colorado Springs\n 3. Helena", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_244.png", "request": "Is a rubber balloon a solid, a liquid, or a gas?\n\n 0. a liquid\n 1. a gas\n 2. a solid", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_245.png", "request": "Is the following statement about our solar system true or false?\nThe volume of Mars is more than ten times as large as Mercury's.\n\n 0. true\n 1. false", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_246.png", "request": "What is the capital of Maryland?\n\n 0. Providence\n 1. Baltimore\n 2. Montpelier\n 3. Annapolis", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_247.png", "request": "Which continent is highlighted?\n\n 0. Australia\n 1. Antarctica\n 2. South America\n 3. Asia", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_248.png", "request": "Will these magnets attract or repel each other?\n\n 0. repel\n 1. attract", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_249.png", "request": "What type of rock is conglomerate?\n\n 0. sedimentary\n 1. igneous\n 2. metamorphic", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_250.png", "request": "Which country is highlighted?\n\n 0. Saint Lucia\n 1. Jamaica\n 2. Haiti\n 3. Cuba", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_251.png", "request": "Which of the following could Tyler's test show?\n\n 0. the amount of bacteria in the water before it was filtered\n 1. whether the filter was clogged\n 2. whether an inexpensive filter would become clogged more often", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_252.png", "request": "What can Janet and Kari trade to each get what they want?\n\n 0. Janet can trade her tomatoes for Kari's sandwich.\n 1. Kari can trade her almonds for Janet's tomatoes.\n 2. Kari can trade her broccoli for Janet's oranges.\n 3. Janet can trade her tomatoes for Kari's broccoli.", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_253.png", "request": "Which animal's skin is better adapted as a warning sign to ward off predators?\n\n 0. lionfish\n 1. impala", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_254.png", "request": "Which property matches this object?\n\n 0. translucent\n 1. colorful", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_255.png", "request": "Which property matches this object?\n\n 0. bendable\n 1. bouncy", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_256.png", "request": "Identify the question that Tanner's experiment can best answer.\n\n 0. Can pennies hold more drops of pure water or water mixed with hand soap?\n 1. Can pennies hold more drops of water mixed with dish soap or water mixed with hand soap?", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_257.png", "request": "Identify the question that Barbara's experiment can best answer.\n\n 0. Do the temperatures inside boxes depend on the sizes of the boxes?\n 1. Do the insides of white boxes get hotter than the insides of black boxes when the boxes are left in the sun?", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_258.png", "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnitude of the magnetic force is greater in Pair 2.\n 1. The magnitude of the magnetic force is greater in Pair 1.\n 2. The magnitude of the magnetic force is the same in both pairs.", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_259.png", "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnetic force is stronger in Pair 2.\n 1. The magnetic force is stronger in Pair 1.\n 2. The strength of the magnetic force is the same in both pairs.", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_260.png", "request": "Which animal is also adapted to be camouflaged in a sandy desert?\n\n 0. Namaqua chameleon\n 1. fire salamander", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_261.png", "request": "Which property do these three objects have in common?\n\n 0. shiny\n 1. slippery\n 2. hard", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_262.png", "request": "What is the capital of Iowa?\n\n 0. Jefferson City\n 1. Des Moines\n 2. Madison\n 3. Cedar Rapids", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_263.png", "request": "Does this passage describe the weather or the climate?\n\n 0. climate\n 1. weather", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_264.png", "request": "What is the capital of Iowa?\n\n 0. Davenport\n 1. Helena\n 2. Lansing\n 3. Des Moines", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_265.png", "request": "Which of these continents does the prime meridian intersect?\n\n 0. North America\n 1. Asia\n 2. Africa", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_266.png", "request": "What is the name of the colony shown?\n\n 0. Maryland\n 1. New Jersey\n 2. Virginia\n 3. West Virginia", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_267.png", "request": "Select the organism in the same species as the reticulated python.\n\n 0. Python bivittatus\n 1. Python reticulatus\n 2. Sciurus vulgaris", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_268.png", "request": "During this time, thermal energy was transferred from () to ().\n\n 0. each refrigerator . . . the surroundings\n 1. the surroundings . . . each refrigerator", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_269.png", "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnetic force is weaker in Pair 2.\n 1. The strength of the magnetic force is the same in both pairs.\n 2. The magnetic force is weaker in Pair 1.", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_270.png", "request": "Can Asimina triloba cells make their own food?\n\n 0. yes\n 1. no", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_271.png", "request": "Which of the following was a dependent variable in this experiment?\n\n 0. the amount of oxygen in the tanks\n 1. the species of algae", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_272.png", "request": "Look at the models of molecules below. Select the elementary substance.\n\n 0. cyclopropane\n 1. chloroform\n 2. nitrogen", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_273.png", "request": "Does this passage describe the weather or the climate?\n\n 0. climate\n 1. weather", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_274.png", "request": "Which solution has a higher concentration of blue particles?\n\n 0. neither; their concentrations are the same\n 1. Solution A\n 2. Solution B", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_275.png", "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnitude of the magnetic force is smaller in Pair 1.\n 1. The magnitude of the magnetic force is smaller in Pair 2.\n 2. The magnitude of the magnetic force is the same in both pairs.", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_276.png", "request": "Which country is highlighted?\n\n 0. the Dominican Republic\n 1. Grenada\n 2. Jamaica\n 3. Trinidad and Tobago", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_277.png", "request": "What can Brandon and Derek trade to each get what they want?\n\n 0. Brandon can trade his tomatoes for Derek's broccoli.\n 1. Brandon can trade his tomatoes for Derek's carrots.\n 2. Derek can trade his almonds for Brandon's tomatoes.\n 3. Derek can trade his broccoli for Brandon's oranges.", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_278.png", "request": "What can Connor and Maura trade to each get what they want?\n\n 0. Connor can trade his tomatoes for Maura's carrots.\n 1. Maura can trade her broccoli for Connor's oranges.\n 2. Connor can trade his tomatoes for Maura's broccoli.\n 3. Maura can trade her almonds for Connor's tomatoes.", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_279.png", "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnitude of the magnetic force is greater in Pair 2.\n 1. The magnitude of the magnetic force is the same in both pairs.\n 2. The magnitude of the magnetic force is greater in Pair 1.", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_280.png", "request": "Which month is the coolest on average in Detroit?\n\n 0. January and February\n 1. November and December\n 2. June and July", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_281.png", "request": "Which country is highlighted?\n\n 0. Jamaica\n 1. Saint Lucia\n 2. Barbados\n 3. Saint Vincent and the Grenadines", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_282.png", "request": "Which solution has a higher concentration of green particles?\n\n 0. Solution A\n 1. neither; their concentrations are the same\n 2. Solution B", "response": "2"}, {"image_path": "datasets/ScienceQA/images/image_283.png", "request": "Which state is highlighted?\n\n 0. Nebraska\n 1. North Dakota\n 2. Michigan\n 3. Minnesota", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_284.png", "request": "Which better describes the Catoctin Mountain Park ecosystem?\n\n 0. It has cold, wet winters. It also has soil that is rich in nutrients.\n 1. It has cold, wet winters. It also has soil that is poor in nutrients.", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_285.png", "request": "Select the reptile below.\n\n 0. clownfish\n 1. helmeted iguana", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_286.png", "request": "Select the organism in the same genus as the common kestrel.\n\n 0. Falco novaeseelandiae\n 1. Ardea goliath\n 2. Haliaeetus pelagicus", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_287.png", "request": "Which of these cities is marked on the map?\n\n 0. Atlanta\n 1. Los Angeles\n 2. New York City\n 3. Houston", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_288.png", "request": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\n\n 0. neither; the samples have the same temperature\n 1. sample A\n 2. sample B", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_289.png", "request": "Which of the following organisms is the decomposer in this food web?\n\n 0. sea otter\n 1. kelp bass\n 2. black rockfish\n 3. bat star", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_290.png", "request": "Look at the models of molecules below. Select the elementary substance.\n\n 0. fluoromethanol\n 1. tetraphosphorus\n 2. methane", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_291.png", "request": "Will these magnets attract or repel each other?\n\n 0. repel\n 1. attract", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_292.png", "request": "Which air temperature was measured within the outlined area shown?\n\n 0. -24\u00b0C\n 1. 3\u00b0C\n 2. -4\u00b0C", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_293.png", "request": "Which country is highlighted?\n\n 0. Tonga\n 1. Nauru\n 2. the Federated States of Micronesia\n 3. Samoa", "response": "3"}, {"image_path": "datasets/ScienceQA/images/image_294.png", "request": "What is the capital of Minnesota?\n\n 0. New Haven\n 1. Saint Paul\n 2. Dover\n 3. Colorado Springs", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_295.png", "request": "Which material is this rocking chair made of?\n\n 0. wood\n 1. silk", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_296.png", "request": "What is the capital of Alabama?\n\n 0. Montgomery\n 1. Columbus\n 2. Oklahoma City\n 3. Birmingham", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_297.png", "request": "What is this archosaur's scientific name?\n\n 0. Effigia okeeffeae\n 1. Effigia nesbitti", "response": "0"}, {"image_path": "datasets/ScienceQA/images/image_298.png", "request": "Identify the question that Stanley's experiment can best answer.\n\n 0. Do bananas develop more brown spots when they are kept at room temperature compared to in a cold refrigerator?\n 1. Do bananas develop more brown spots if they are kept in bags with holes compared to bags without holes?", "response": "1"}, {"image_path": "datasets/ScienceQA/images/image_299.png", "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnitude of the magnetic force is smaller in Pair 1.\n 1. The magnitude of the magnetic force is the same in both pairs.\n 2. The magnitude of the magnetic force is smaller in Pair 2.", "response": "0"}]
+[
+    {
+        "image_path": "datasets/ScienceQA/images/image_0.png",
+        "request": "Which of the following could Gordon's test show?\n\n 0. if the spacecraft was damaged when using a parachute with a 1 m vent going 200 km per hour\n 1. how steady a parachute with a 1 m vent was at 200 km per hour\n 2. whether a parachute with a 1 m vent would swing too much at 400 km per hour",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_1.png",
+        "request": "What is the name of the colony shown?\n\n 0. Maryland\n 1. New Hampshire\n 2. Rhode Island\n 3. Vermont",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_2.png",
+        "request": "Which of these organisms contains matter that was once part of the lichen?\n\n 0. bilberry\n 1. mushroom",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_3.png",
+        "request": "What is the expected ratio of offspring with a woolly fleece to offspring with a hairy fleece? Choose the most likely ratio.\n\n 0. 0:4\n 1. 4:0\n 2. 2:2\n 3. 1:3\n 4. 3:1",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_4.png",
+        "request": "Which property do these three objects have in common?\n\n 0. shiny\n 1. slippery\n 2. opaque",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_5.png",
+        "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnitude of the magnetic force is the same in both pairs.\n 1. The magnitude of the magnetic force is smaller in Pair 1.\n 2. The magnitude of the magnetic force is smaller in Pair 2.",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_6.png",
+        "request": "What is the capital of Wyoming?\n\n 0. Phoenix\n 1. Baton Rouge\n 2. Honolulu\n 3. Cheyenne",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_7.png",
+        "request": "Is the following statement about our solar system true or false?\nThe largest planet is made mainly of ice.\n\n 0. true\n 1. false",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_8.png",
+        "request": "Which of the following organisms is the primary consumer in this food web?\n\n 0. copepod\n 1. black crappie\n 2. bacteria",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_9.png",
+        "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnetic force is stronger in Pair 2.\n 1. The magnetic force is stronger in Pair 1.\n 2. The strength of the magnetic force is the same in both pairs.",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_10.png",
+        "request": "Which better describes the Daintree rain forest ecosystem?\n\n 0. It has year-round rain. It also has soil that is poor in nutrients.\n 1. It has cold winters. It also has many different types of organisms.",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_11.png",
+        "request": "What is the capital of Delaware?\n\n 0. Montpelier\n 1. Trenton\n 2. Dover\n 3. Georgetown",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_12.png",
+        "request": "Which of these states is farthest north?\n\n 0. Maine\n 1. South Carolina\n 2. Kansas\n 3. Delaware",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_13.png",
+        "request": "What can Greta and Allie trade to each get what they want?\n\n 0. Greta can trade her tomatoes for Allie's sandwich.\n 1. Allie can trade her broccoli for Greta's oranges.\n 2. Allie can trade her almonds for Greta's tomatoes.\n 3. Greta can trade her tomatoes for Allie's broccoli.",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_14.png",
+        "request": "What is the capital of Colorado?\n\n 0. Boulder\n 1. Phoenix\n 2. Colorado Springs\n 3. Denver",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_15.png",
+        "request": "Which continent is highlighted?\n\n 0. Africa\n 1. North America\n 2. South America\n 3. Asia",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_16.png",
+        "request": "Identify the question that Chase's experiment can best answer.\n\n 0. Do cardinals eat more seeds per visit from feeders containing sunflower seeds compared to feeders containing flax seeds?\n 1. Do cardinals visit feeders containing sunflower seeds more often than feeders containing flax seeds?",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_17.png",
+        "request": "Which material is this path made of?\n\n 0. plastic\n 1. brick",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_18.png",
+        "request": "Select the bird below.\n\n 0. cane toad\n 1. ostrich",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_19.png",
+        "request": "Which property do these three objects have in common?\n\n 0. blue\n 1. hard\n 2. sticky",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_20.png",
+        "request": "Which of the following was a dependent variable in this experiment?\n\n 0. the temperature of the heating pad\n 1. the number of days until a seed germinated",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_21.png",
+        "request": "What is the capital of Mississippi?\n\n 0. Detroit\n 1. Jackson\n 2. Biloxi\n 3. Topeka",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_22.png",
+        "request": "Which property matches this object?\n\n 0. stretchy\n 1. blue",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_23.png",
+        "request": "Is Rafflesia arnoldii made up of many cells?\n\n 0. yes\n 1. no",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_24.png",
+        "request": "What is the expected ratio of offspring with smooth fruit to offspring with fuzzy fruit? Choose the most likely ratio.\n\n 0. 3:1\n 1. 2:2\n 2. 1:3\n 3. 4:0\n 4. 0:4",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_25.png",
+        "request": "Which of the following could Cooper's test show?\n\n 0. if at least 20% of the park would be shaded by trees in each design\n 1. which design would have the least traffic noise in the concert area\n 2. which design would have the greatest distance between the concert area and the road",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_26.png",
+        "request": "Will these magnets attract or repel each other?\n\n 0. repel\n 1. attract",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_27.png",
+        "request": "What is the capital of Connecticut?\n\n 0. Hartford\n 1. Annapolis\n 2. New Haven\n 3. Dover",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_28.png",
+        "request": "Which ocean is highlighted?\n\n 0. the Indian Ocean\n 1. the Atlantic Ocean\n 2. the Pacific Ocean\n 3. the Southern Ocean",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_29.png",
+        "request": "Which statement describes the Yasuni National Park ecosystem?\n\n 0. It has mostly small plants.\n 1. It has many different types of organisms.\n 2. It has soil that is rich in nutrients.",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_30.png",
+        "request": "Which property do these three objects have in common?\n\n 0. fragile\n 1. bouncy\n 2. yellow",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_31.png",
+        "request": "Look at the models of molecules below. Select the elementary substance.\n\n 0. carbon tetrachloride\n 1. acetaldehyde\n 2. bromine",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_32.png",
+        "request": "Select the organism in the same species as the pink-backed pelican.\n\n 0. Balearica pavonina\n 1. Tyto alba\n 2. Pelecanus rufescens",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_33.png",
+        "request": "What is the capital of North Dakota?\n\n 0. Des Moines\n 1. Bismarck\n 2. Madison\n 3. Fargo",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_34.png",
+        "request": "Identify the question that Jeremiah's experiment can best answer.\n\n 0. Do cardinals visit feeders containing sunflower seeds more often than feeders containing flax seeds?\n 1. Do cardinals eat more seeds per visit from feeders containing sunflower seeds compared to feeders containing flax seeds?",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_35.png",
+        "request": "What is the capital of Massachusetts?\n\n 0. Cambridge\n 1. Plymouth\n 2. Boston\n 3. Dover",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_36.png",
+        "request": "Which animal is also adapted to be camouflaged in the snow?\n\n 0. short-tailed weasel\n 1. common hawk-cuckoo",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_37.png",
+        "request": "Select the organism in the same genus as the Goliath heron.\n\n 0. Falco sparverius\n 1. Ardea herodias\n 2. Tigrisoma mexicanum",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_38.png",
+        "request": "Which country is highlighted?\n\n 0. Barbados\n 1. the Dominican Republic\n 2. Saint Lucia\n 3. Saint Vincent and the Grenadines",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_39.png",
+        "request": "Will these magnets attract or repel each other?\n\n 0. repel\n 1. attract",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_40.png",
+        "request": "Can Fromia monilis cells make their own food?\n\n 0. yes\n 1. no",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_41.png",
+        "request": "Does this passage describe the weather or the climate?\n\n 0. weather\n 1. climate",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_42.png",
+        "request": "Which country is highlighted?\n\n 0. Vanuatu\n 1. Tonga\n 2. the Marshall Islands\n 3. Nauru",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_43.png",
+        "request": "Which rhetorical appeal is primarily used in this ad?\n\n 0. logos (reason)\n 1. pathos (emotion)\n 2. ethos (character)",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_44.png",
+        "request": "Which animal is also adapted to be camouflaged among dead leaves?\n\n 0. strawberry poison frog\n 1. Surinam horned frog",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_45.png",
+        "request": "Identify the question that Helen's experiment can best answer.\n\n 0. Does fabric turn darker when soaked in a mixture of black dye and water for 15 minutes compared to 30 minutes?\n 1. Does linen fabric turn darker than cotton fabric when soaked in a mixture of black dye and water?",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_46.png",
+        "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnetic force is stronger in Pair 1.\n 1. The magnetic force is stronger in Pair 2.\n 2. The strength of the magnetic force is the same in both pairs.",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_47.png",
+        "request": "What is the capital of Washington?\n\n 0. Olympia\n 1. Burlington\n 2. Seattle\n 3. Spokane",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_48.png",
+        "request": "Which solution has a higher concentration of green particles?\n\n 0. Solution B\n 1. neither; their concentrations are the same\n 2. Solution A",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_49.png",
+        "request": "Which is this organism's scientific name?\n\n 0. comet moth\n 1. Argema mittrei",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_50.png",
+        "request": "Which property do these three objects have in common?\n\n 0. smooth\n 1. stretchy\n 2. fuzzy",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_51.png",
+        "request": "Which continent is highlighted?\n\n 0. North America\n 1. Africa\n 2. Asia",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_52.png",
+        "request": "Which of these states is farthest north?\n\n 0. Florida\n 1. Illinois\n 2. Ohio\n 3. New Hampshire",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_53.png",
+        "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnitude of the magnetic force is smaller in Pair 2.\n 1. The magnitude of the magnetic force is smaller in Pair 1.\n 2. The magnitude of the magnetic force is the same in both pairs.",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_54.png",
+        "request": "Which animal's legs are also adapted for wading?\n\n 0. kookaburra\n 1. Eurasian spoonbill",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_55.png",
+        "request": "Which rock is more likely to form from sediment deposited in a desert?\n\n 0. Sandstone forms from layers of sand.\n 1. Shale forms from layers of mud.",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_56.png",
+        "request": "As Rusty pulls on the toy, what is the direction of the opposing force?\n\n 0. away from Coco\n 1. toward Coco",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_57.png",
+        "request": "What is the capital of Hawaii?\n\n 0. Portland\n 1. Bismarck\n 2. Honolulu\n 3. Juneau",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_58.png",
+        "request": "What is the capital of Washington?\n\n 0. Santa Fe\n 1. Lansing\n 2. Olympia\n 3. Seattle",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_59.png",
+        "request": "What is the probability that an American curl cat produced by this cross will be homozygous dominant for the ear type gene?\n\n 0. 0/4\n 1. 2/4\n 2. 4/4\n 3. 3/4\n 4. 1/4",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_60.png",
+        "request": "What is the capital of Oklahoma?\n\n 0. Boise\n 1. Oklahoma City\n 2. Little Rock\n 3. Birmingham",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_61.png",
+        "request": "Identify the question that Jaden and Ron's experiment can best answer.\n\n 0. Do ping pong balls travel farther when launched from a 30\u00b0 angle compared to a 45\u00b0 angle?\n 1. Do ping pong balls stop rolling along the ground sooner after being launched from a 30\u00b0 angle or a 45\u00b0 angle?",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_62.png",
+        "request": "Complete the statement.\nHydrogen is ().\n\n 0. an elementary substance\n 1. a compound",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_63.png",
+        "request": "What is the name of the colony shown?\n\n 0. New Jersey\n 1. South Carolina\n 2. West Virginia\n 3. Rhode Island",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_64.png",
+        "request": "What is the capital of Kansas?\n\n 0. Des Moines\n 1. Wichita\n 2. Topeka\n 3. Lincoln",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_65.png",
+        "request": "Which continent is highlighted?\n\n 0. North America\n 1. Africa\n 2. Asia\n 3. South America",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_66.png",
+        "request": "Identify the question that Linda and Bob's experiment can best answer.\n\n 0. Does Linda's snowboard slide down a hill in less time when it has a thin layer of wax or a thick layer of wax?\n 1. Does Linda's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax?",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_67.png",
+        "request": "What is the capital of Nevada?\n\n 0. Sacramento\n 1. Las Vegas\n 2. Carson City\n 3. Jefferson City",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_68.png",
+        "request": "What is the name of the colony shown?\n\n 0. Maine\n 1. Maryland\n 2. New Hampshire\n 3. North Carolina",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_69.png",
+        "request": "What is the capital of New Mexico?\n\n 0. Albuquerque\n 1. Santa Fe\n 2. Honolulu\n 3. Boston",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_70.png",
+        "request": "Which continent is highlighted?\n\n 0. Europe\n 1. Asia\n 2. South America\n 3. Australia",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_71.png",
+        "request": "Will these magnets attract or repel each other?\n\n 0. repel\n 1. attract",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_72.png",
+        "request": "Which animal's limbs are also adapted for climbing trees?\n\n 0. three-toed sloth\n 1. sea turtle",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_73.png",
+        "request": "Which type of relationship is formed when a rat tapeworm attaches itself to a rat's intestine?\n\n 0. parasitic\n 1. mutualistic\n 2. commensal",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_74.png",
+        "request": "What is the capital of California?\n\n 0. San Francisco\n 1. Sacramento\n 2. Jefferson City\n 3. Lansing",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_75.png",
+        "request": "Which property do these three objects have in common?\n\n 0. salty\n 1. scratchy\n 2. sticky",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_76.png",
+        "request": "Based on the arrows, which of the following living things is a decomposer?\n\n 0. kelp\n 1. bat star",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_77.png",
+        "request": "Is marble a mineral or a rock?\n\n 0. rock\n 1. mineral",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_78.png",
+        "request": "Complete the statement.\nEthane is ().\n\n 0. an elementary substance\n 1. a compound",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_79.png",
+        "request": "What is the capital of Rhode Island?\n\n 0. Fayetteville\n 1. Huntington\n 2. Providence\n 3. Newport",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_80.png",
+        "request": "Which is this organism's scientific name?\n\n 0. Gavia immer\n 1. common loon",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_81.png",
+        "request": "Which of these states is farthest west?\n\n 0. Missouri\n 1. Florida\n 2. Montana\n 3. Oregon",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_82.png",
+        "request": "Which property do these three objects have in common?\n\n 0. slippery\n 1. transparent\n 2. yellow",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_83.png",
+        "request": "Which statement describes the Cape Breton Highlands National Park ecosystem?\n\n 0. It has soil that is rich in nutrients.\n 1. It has many evergreen trees.",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_84.png",
+        "request": "Which of these organisms contains matter that was once part of the lichen?\n\n 0. mushroom\n 1. short-tailed weasel\n 2. brown lemming\n 3. rough-legged hawk\n 4. bilberry",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_85.png",
+        "request": "Will these magnets attract or repel each other?\n\n 0. attract\n 1. repel",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_86.png",
+        "request": "What is the name of the colony shown?\n\n 0. New Hampshire\n 1. Vermont\n 2. New York\n 3. Delaware",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_87.png",
+        "request": "Which bird's beak is also adapted to catch insects?\n\n 0. barn swallow\n 1. hanging parrot",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_88.png",
+        "request": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\n\n 0. neither; the samples have the same temperature\n 1. sample A\n 2. sample B",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_89.png",
+        "request": "What is the capital of Connecticut?\n\n 0. Columbia\n 1. Bridgeport\n 2. New Haven\n 3. Hartford",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_90.png",
+        "request": "What is the capital of Ohio?\n\n 0. Wilmington\n 1. Reno\n 2. Cleveland\n 3. Columbus",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_91.png",
+        "request": "Is dolerite a mineral or a rock?\n\n 0. mineral\n 1. rock",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_92.png",
+        "request": "What evidence of a wildfire does this picture show?\n\n 0. The grass is brown and dry.\n 1. Some of the grass on the ground is burning.",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_93.png",
+        "request": "What can Austen and Naomi trade to each get what they want?\n\n 0. Naomi can trade her broccoli for Austen's oranges.\n 1. Austen can trade his tomatoes for Naomi's broccoli.\n 2. Austen can trade his tomatoes for Naomi's sandwich.\n 3. Naomi can trade her almonds for Austen's tomatoes.",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_94.png",
+        "request": "Will these magnets attract or repel each other?\n\n 0. repel\n 1. attract",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_95.png",
+        "request": "Based on the arrows, which of the following organisms is a consumer?\n\n 0. mushroom\n 1. lichen",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_96.png",
+        "request": "Which solution has a higher concentration of pink particles?\n\n 0. neither; their concentrations are the same\n 1. Solution B\n 2. Solution A",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_97.png",
+        "request": "Identify the question that Robert's experiment can best answer.\n\n 0. Do steel nails take fewer days to rust in water compared to vinegar?\n 1. Do steel nails rust in fewer days when submerged in a large volume of liquid compared to a small volume?",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_98.png",
+        "request": "Does this passage describe the weather or the climate?\n\n 0. weather\n 1. climate",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_99.png",
+        "request": "Which country is highlighted?\n\n 0. Haiti\n 1. Trinidad and Tobago\n 2. Cuba\n 3. the Dominican Republic",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_100.png",
+        "request": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\n\n 0. neither; the samples have the same temperature\n 1. sample B\n 2. sample A",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_101.png",
+        "request": "Which solution has a higher concentration of green particles?\n\n 0. Solution B\n 1. neither; their concentrations are the same\n 2. Solution A",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_102.png",
+        "request": "What is the name of the colony shown?\n\n 0. Pennsylvania\n 1. Vermont\n 2. Tennessee\n 3. Michigan",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_103.png",
+        "request": "What is the capital of Hawaii?\n\n 0. Hilo\n 1. Carson City\n 2. Honolulu\n 3. Juneau",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_104.png",
+        "request": "In this food chain, the yucca moth is a consumer. Why?\n\n 0. It makes its own food.\n 1. It eats another living thing.",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_105.png",
+        "request": "What is the capital of Kentucky?\n\n 0. Lexington\n 1. Frankfort\n 2. Anchorage\n 3. Baton Rouge",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_106.png",
+        "request": "Can Polytrichum commune cells make their own food?\n\n 0. yes\n 1. no",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_107.png",
+        "request": "Select the amphibian below.\n\n 0. brown tree frog\n 1. woodpecker",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_108.png",
+        "request": "Complete the statement.\nBeryllium is ().\n\n 0. an elementary substance\n 1. a compound",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_109.png",
+        "request": "Which of the following could Edwin's test show?\n\n 0. how much athletes would sweat in the fabric\n 1. if the sample fabric would absorb one drop of water in less than one second\n 2. how long it would take the sample fabric to dry after it absorbed one drop of water",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_110.png",
+        "request": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\n\n 0. sample A\n 1. sample B\n 2. neither; the samples have the same temperature",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_111.png",
+        "request": "What is the capital of Massachusetts?\n\n 0. Dover\n 1. Boston\n 2. Salem\n 3. Augusta",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_112.png",
+        "request": "What is the Morelet's crocodile's scientific name?\n\n 0. Crocodylus moreletii\n 1. Crocodylus anthropophagus",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_113.png",
+        "request": "Which material is this flower vase made of?\n\n 0. silk\n 1. glass",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_114.png",
+        "request": "Will these magnets attract or repel each other?\n\n 0. repel\n 1. attract",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_115.png",
+        "request": "What is the capital of Kansas?\n\n 0. Wichita\n 1. Pierre\n 2. Springfield\n 3. Topeka",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_116.png",
+        "request": "Which property do these three objects have in common?\n\n 0. translucent\n 1. opaque\n 2. fragile",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_117.png",
+        "request": "What can Turner and Mona trade to each get what they want?\n\n 0. Turner can trade his tomatoes for Mona's broccoli.\n 1. Turner can trade his tomatoes for Mona's carrots.\n 2. Mona can trade her broccoli for Turner's oranges.\n 3. Mona can trade her almonds for Turner's tomatoes.",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_118.png",
+        "request": "Which property matches this object?\n\n 0. stretchy\n 1. transparent",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_119.png",
+        "request": "Which country is highlighted?\n\n 0. Tuvalu\n 1. Australia\n 2. New Zealand\n 3. Papua New Guinea",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_120.png",
+        "request": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\n\n 0. neither; the samples have the same temperature\n 1. sample A\n 2. sample B",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_121.png",
+        "request": "Does this passage describe the weather or the climate?\n\n 0. climate\n 1. weather",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_122.png",
+        "request": "Which material is this egg carton made of?\n\n 0. wood\n 1. styrofoam",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_123.png",
+        "request": "What is the capital of Florida?\n\n 0. Tampa\n 1. Little Rock\n 2. Laramie\n 3. Tallahassee",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_124.png",
+        "request": "Identify the question that Kira's experiment can best answer.\n\n 0. Does linen fabric turn darker than cotton fabric when soaked in a mixture of black dye and water?\n 1. Does fabric turn darker when soaked in a mixture of black dye and water for 15 minutes compared to 30 minutes?",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_125.png",
+        "request": "Which country is highlighted?\n\n 0. the Federated States of Micronesia\n 1. New Zealand\n 2. Tuvalu\n 3. Tonga",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_126.png",
+        "request": "Which property do these three objects have in common?\n\n 0. shiny\n 1. fuzzy\n 2. blue",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_127.png",
+        "request": "What is the name of the colony shown?\n\n 0. Maryland\n 1. Virginia\n 2. Washington, D.C.\n 3. Rhode Island",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_128.png",
+        "request": "Which of these states is farthest east?\n\n 0. Nebraska\n 1. Louisiana\n 2. Idaho\n 3. Arizona",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_129.png",
+        "request": "Which country is highlighted?\n\n 0. The Bahamas\n 1. Cuba\n 2. Jamaica\n 3. Haiti",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_130.png",
+        "request": "Which month is the hottest on average in Rome?\n\n 0. December, January, and February\n 1. July and August\n 2. March and April",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_131.png",
+        "request": "What is the name of the colony shown?\n\n 0. New York\n 1. Rhode Island\n 2. North Carolina\n 3. New Jersey",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_132.png",
+        "request": "Which animal's mouth is also adapted to tear through meat?\n\n 0. tiger\n 1. marmot",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_133.png",
+        "request": "Is the water in a sink a solid or a liquid?\n\n 0. a liquid\n 1. a solid",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_134.png",
+        "request": "What is the capital of Maryland?\n\n 0. Juneau\n 1. Augusta\n 2. Annapolis\n 3. Providence",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_135.png",
+        "request": "Which country is highlighted?\n\n 0. Palau\n 1. Nauru\n 2. the Federated States of Micronesia\n 3. New Zealand",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_136.png",
+        "request": "What is the capital of Utah?\n\n 0. Helena\n 1. Albany\n 2. Salt Lake City\n 3. Provo",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_137.png",
+        "request": "What is the capital of New Jersey?\n\n 0. Newark\n 1. Montpelier\n 2. Jersey City\n 3. Trenton",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_138.png",
+        "request": "Which of the following organisms is the decomposer in this food web?\n\n 0. green algae\n 1. water mold\n 2. golden algae",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_139.png",
+        "request": "Select the organism in the same genus as the North American beaver.\n\n 0. Goura scheepmakeri\n 1. Castor fiber\n 2. Cervus canadensis",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_140.png",
+        "request": "Which animal is also adapted to be camouflaged in the snow?\n\n 0. Arctic hare\n 1. camel",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_141.png",
+        "request": "Which ocean is highlighted?\n\n 0. the Indian Ocean\n 1. the Atlantic Ocean\n 2. the Pacific Ocean\n 3. the Southern Ocean",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_142.png",
+        "request": "Which type of relationship is formed when a bristle worm lives on a white sea urchin?\n\n 0. mutualistic\n 1. commensal\n 2. parasitic",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_143.png",
+        "request": "Which property do these three objects have in common?\n\n 0. rough\n 1. yellow\n 2. sticky",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_144.png",
+        "request": "Which of these states is farthest east?\n\n 0. Georgia\n 1. Delaware\n 2. North Dakota\n 3. Colorado",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_145.png",
+        "request": "Which is this organism's scientific name?\n\n 0. Carcharodon carcharias\n 1. great white shark",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_146.png",
+        "request": "Which month is the wettest on average in Christchurch?\n\n 0. August\n 1. April\n 2. May",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_147.png",
+        "request": "Will these magnets attract or repel each other?\n\n 0. repel\n 1. attract",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_148.png",
+        "request": "Which ocean is highlighted?\n\n 0. the Southern Ocean\n 1. the Pacific Ocean\n 2. the Atlantic Ocean\n 3. the Indian Ocean",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_149.png",
+        "request": "What is the capital of Colorado?\n\n 0. Olympia\n 1. Denver\n 2. Carson City\n 3. Louisville",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_150.png",
+        "request": "Which country is highlighted?\n\n 0. Australia\n 1. the Marshall Islands\n 2. New Zealand\n 3. Papua New Guinea",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_151.png",
+        "request": "Which of these states is farthest south?\n\n 0. Missouri\n 1. Michigan\n 2. Maine\n 3. Oregon",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_152.png",
+        "request": "Which of these cities is marked on the map?\n\n 0. Miami\n 1. Atlanta\n 2. Nashville\n 3. Oklahoma City",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_153.png",
+        "request": "In this food web, which organism contains matter that eventually moves to the bat star?\n\n 0. sea cucumber\n 1. sea otter\n 2. phytoplankton",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_154.png",
+        "request": "Identify the question that Dakota's experiment can best answer.\n\n 0. Do more tomato seedlings grow when they are planted in soil with fertilizer compared to soil without fertilizer?\n 1. Does the humidity level where tomato seeds are planted affect the number of tomato seedlings that grow?",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_155.png",
+        "request": "What is the capital of California?\n\n 0. Sacramento\n 1. Reno\n 2. Los Angeles\n 3. San Francisco",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_156.png",
+        "request": "Which continent is highlighted?\n\n 0. Australia\n 1. Africa\n 2. South America\n 3. Europe",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_157.png",
+        "request": "Identify the question that Harry's experiment can best answer.\n\n 0. Do steel nails take fewer days to rust in water compared to vinegar?\n 1. Do steel nails rust in fewer days when submerged in a large volume of liquid compared to a small volume?",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_158.png",
+        "request": "Is the following statement about our solar system true or false?\nOf the four smallest planets, two are made mainly of gas.\n\n 0. false\n 1. true",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_159.png",
+        "request": "What is the capital of Colorado?\n\n 0. Denver\n 1. Concord\n 2. Columbia\n 3. Charlotte",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_160.png",
+        "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnitude of the magnetic force is greater in Pair 2.\n 1. The magnitude of the magnetic force is greater in Pair 1.\n 2. The magnitude of the magnetic force is the same in both pairs.",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_161.png",
+        "request": "What is the expected ratio of offspring with a normal-sized body to offspring with a dwarf body? Choose the most likely ratio.\n\n 0. 1:3\n 1. 4:0\n 2. 0:4\n 3. 2:2\n 4. 3:1",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_162.png",
+        "request": "Select the fish below.\n\n 0. water buffalo\n 1. poison dart frog\n 2. great white shark\n 3. penguin",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_163.png",
+        "request": "What can Clara and Harry trade to each get what they want?\n\n 0. Harry can trade his almonds for Clara's tomatoes.\n 1. Clara can trade her tomatoes for Harry's carrots.\n 2. Harry can trade his broccoli for Clara's oranges.\n 3. Clara can trade her tomatoes for Harry's broccoli.",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_164.png",
+        "request": "Which property do these two objects have in common?\n\n 0. sour\n 1. stretchy",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_165.png",
+        "request": "What is the name of the colony shown?\n\n 0. North Carolina\n 1. Mississippi\n 2. New York\n 3. Massachusetts",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_166.png",
+        "request": "What is the name of the colony shown?\n\n 0. Massachusetts\n 1. Virginia\n 2. Georgia\n 3. New Hampshire",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_167.png",
+        "request": "Which of the following could Charlotte's test show?\n\n 0. if the blade guards would break in a crash\n 1. if adding the blade guards made the drone fly poorly\n 2. how much the drone weighed with the blade guards",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_168.png",
+        "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnitude of the magnetic force is greater in Pair 2.\n 1. The magnitude of the magnetic force is the same in both pairs.\n 2. The magnitude of the magnetic force is greater in Pair 1.",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_169.png",
+        "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnetic force is stronger in Pair 2.\n 1. The strength of the magnetic force is the same in both pairs.\n 2. The magnetic force is stronger in Pair 1.",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_170.png",
+        "request": "Which of the following organisms is the omnivore in this food web?\n\n 0. black racer\n 1. gray fox\n 2. silver maple\n 3. black bear",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_171.png",
+        "request": "Which property do these four objects have in common?\n\n 0. opaque\n 1. fragile\n 2. smooth",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_172.png",
+        "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnitude of the magnetic force is smaller in Pair 1.\n 1. The magnitude of the magnetic force is smaller in Pair 2.\n 2. The magnitude of the magnetic force is the same in both pairs.",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_173.png",
+        "request": "What can Reid and Daniel trade to each get what they want?\n\n 0. Reid can trade his tomatoes for Daniel's carrots.\n 1. Daniel can trade his broccoli for Reid's oranges.\n 2. Reid can trade his tomatoes for Daniel's broccoli.\n 3. Daniel can trade his almonds for Reid's tomatoes.",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_174.png",
+        "request": "Which property matches this object?\n\n 0. flexible\n 1. fragile",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_175.png",
+        "request": "Identify the question that Jeanette's experiment can best answer.\n\n 0. Do circuits that include iron produce dimmer light than circuits that include copper?\n 1. Can light bulbs stay lit longer when circuits include copper or when circuits include iron?",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_176.png",
+        "request": "Which property do these two objects have in common?\n\n 0. sour\n 1. blue",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_177.png",
+        "request": "Identify the question that Wanda and Ernest's experiment can best answer.\n\n 0. Does Wanda's snowboard slide down a hill in less time when it has a thin layer of wax or a thick layer of wax?\n 1. Does Wanda's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax?",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_178.png",
+        "request": "What is the direction of this pull?\n\n 0. away from the sled dog team\n 1. toward the sled dog team",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_179.png",
+        "request": "Which state is highlighted?\n\n 0. Ohio\n 1. South Dakota\n 2. Nebraska\n 3. Indiana",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_180.png",
+        "request": "Complete the sentence.\nChristianity and () originated in the same region of the world.\n\n 0. Buddhism\n 1. Judaism\n 2. Yoruba\n 3. Hinduism",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_181.png",
+        "request": "Which continent is highlighted?\n\n 0. North America\n 1. Europe\n 2. Australia\n 3. South America",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_182.png",
+        "request": "Which bird's beak is also adapted to crack large, hard nuts?\n\n 0. African gray parrot\n 1. white-tipped sicklebill",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_183.png",
+        "request": "Which solution has a higher concentration of green particles?\n\n 0. Solution A\n 1. neither; their concentrations are the same\n 2. Solution B",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_184.png",
+        "request": "What is the name of the colony shown?\n\n 0. Maryland\n 1. New York\n 2. Illinois\n 3. Connecticut",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_185.png",
+        "request": "What is the capital of New Jersey?\n\n 0. Augusta\n 1. Montpelier\n 2. Newark\n 3. Trenton",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_186.png",
+        "request": "What is the capital of New Mexico?\n\n 0. Albuquerque\n 1. Santa Fe\n 2. Carson City\n 3. Lexington",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_187.png",
+        "request": "Which trait did Palaeopython have? Select the trait you can observe on the fossil.\n\n 0. black stripes on its skin\n 1. large fins on its body\n 2. a long, thin body",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_188.png",
+        "request": "Is sphalerite a mineral?\n\n 0. no\n 1. yes",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_189.png",
+        "request": "Select the organism in the same species as the Eurasian beaver.\n\n 0. Castor fiber\n 1. Ovis canadensis\n 2. Lontra canadensis",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_190.png",
+        "request": "Select the organism in the same species as the snowy owl.\n\n 0. Bubo scandiacus\n 1. Ardea herodias\n 2. Pelecanus erythrorhynchos",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_191.png",
+        "request": "Which property do these three objects have in common?\n\n 0. flexible\n 1. transparent\n 2. opaque",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_192.png",
+        "request": "Which is the main persuasive appeal used in this ad?\n\n 0. pathos (emotion)\n 1. ethos (character)\n 2. logos (reason)",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_193.png",
+        "request": "What is the name of the colony shown?\n\n 0. Maine\n 1. Rhode Island\n 2. New York\n 3. Virginia",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_194.png",
+        "request": "Select the mammal below.\n\n 0. gray wolf\n 1. keel-billed toucan",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_195.png",
+        "request": "What is the name of the colony shown?\n\n 0. New Jersey\n 1. New York\n 2. Maryland\n 3. Delaware",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_196.png",
+        "request": "Will these magnets attract or repel each other?\n\n 0. repel\n 1. attract",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_197.png",
+        "request": "Will these magnets attract or repel each other?\n\n 0. attract\n 1. repel",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_198.png",
+        "request": "Which bird's beak is also adapted to crack large, hard nuts?\n\n 0. bald ibis\n 1. scarlet macaw",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_199.png",
+        "request": "Which of the following could Helen's test show?\n\n 0. if adding the blade guards made the drone fly poorly\n 1. if the blade guards would break in a crash\n 2. how much the drone weighed with the blade guards",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_200.png",
+        "request": "Look at the models of molecules below. Select the elementary substance.\n\n 0. acetaldehyde\n 1. hydrazine\n 2. ozone",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_201.png",
+        "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnetic force is weaker in Pair 1.\n 1. The magnetic force is weaker in Pair 2.\n 2. The strength of the magnetic force is the same in both pairs.",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_202.png",
+        "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The strength of the magnetic force is the same in both pairs.\n 1. The magnetic force is weaker in Pair 2.\n 2. The magnetic force is weaker in Pair 1.",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_203.png",
+        "request": "Which of the following could Marcy and Brenda's test show?\n\n 0. if a new batch of concrete was firm enough to use\n 1. if the concrete from each batch took the same amount of time to dry",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_204.png",
+        "request": "The United States has a federal system. Based on these definitions, which of these statements would most likely be made by a person who lives under a federal system?\n\n 0. My national government officials decide most issues that come up.\n 1. I only pay attention to state politics since the national government has almost no power.\n 2. Both my state and national government officials have power over important issues.",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_205.png",
+        "request": "Identify the question that Lacey's experiment can best answer.\n\n 0. Does the amount of water in a glass affect whether eggs sink or float in the water?\n 1. Are eggs more likely to float in fresh water or salty water?",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_206.png",
+        "request": "Will these magnets attract or repel each other?\n\n 0. attract\n 1. repel",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_207.png",
+        "request": "Which country is highlighted?\n\n 0. Jamaica\n 1. Grenada\n 2. Cuba\n 3. Haiti",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_208.png",
+        "request": "What is the name of the colony shown?\n\n 0. Connecticut\n 1. Pennsylvania\n 2. New Hampshire\n 3. Vermont",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_209.png",
+        "request": "During this time, thermal energy was transferred from () to ().\n\n 0. the surroundings . . . each vial\n 1. each vial . . . the surroundings",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_210.png",
+        "request": "What is the capital of Pennsylvania?\n\n 0. Hartford\n 1. Harrisburg\n 2. Nashville\n 3. Pittsburgh",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_211.png",
+        "request": "Will these magnets attract or repel each other?\n\n 0. repel\n 1. attract",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_212.png",
+        "request": "What can Arianna and Clarence trade to each get what they want?\n\n 0. Arianna can trade her tomatoes for Clarence's sandwich.\n 1. Arianna can trade her tomatoes for Clarence's broccoli.\n 2. Clarence can trade his broccoli for Arianna's oranges.\n 3. Clarence can trade his almonds for Arianna's tomatoes.",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_213.png",
+        "request": "Is the water in a glass a solid, a liquid, or a gas?\n\n 0. a solid\n 1. a gas\n 2. a liquid",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_214.png",
+        "request": "What is the capital of New York?\n\n 0. Montpelier\n 1. New York City\n 2. Louisville\n 3. Albany",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_215.png",
+        "request": "Is Bertholletia excelsa made up of one cell?\n\n 0. yes\n 1. no",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_216.png",
+        "request": "Is the following statement about our solar system true or false?\nThree-quarters of the planets are larger than Earth.\n\n 0. false\n 1. true",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_217.png",
+        "request": "Which animal's skin is better adapted as a warning sign to ward off predators?\n\n 0. lichen katydid\n 1. opalescent nudibranch",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_218.png",
+        "request": "Which three months have over 200millimeters of precipitation in Singapore?\n\n 0. November, December, and January\n 1. August, September, and October\n 2. May, June, and July",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_219.png",
+        "request": "Is scoria a mineral or a rock?\n\n 0. rock\n 1. mineral",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_220.png",
+        "request": "What is the capital of Ohio?\n\n 0. Cincinnati\n 1. Columbus\n 2. Frankfort\n 3. Cleveland",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_221.png",
+        "request": "Which animal's legs are also adapted for wading?\n\n 0. common kingfisher\n 1. painted stork",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_222.png",
+        "request": "What is the probability that a Syrian hamster produced by this cross will have long fur?\n\n 0. 2/4\n 1. 3/4\n 2. 4/4\n 3. 1/4\n 4. 0/4",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_223.png",
+        "request": "Which of these states is farthest south?\n\n 0. Kansas\n 1. Connecticut\n 2. Ohio\n 3. South Dakota",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_224.png",
+        "request": "Will these magnets attract or repel each other?\n\n 0. attract\n 1. repel",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_225.png",
+        "request": "Which country is highlighted?\n\n 0. Saint Vincent and the Grenadines\n 1. Saint Lucia\n 2. Grenada\n 3. Haiti",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_226.png",
+        "request": "Which of the following could Rose's test show?\n\n 0. if the new turbine could turn easily\n 1. whether the new turbine could produce 10% more electricity\n 2. how much the new turbine would weigh",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_227.png",
+        "request": "Which country is highlighted?\n\n 0. Solomon Islands\n 1. Papua New Guinea\n 2. New Zealand\n 3. Australia",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_228.png",
+        "request": "What is the capital of Oregon?\n\n 0. Salem\n 1. Denver\n 2. Milwaukee\n 3. Portland",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_229.png",
+        "request": "What is the direction of this pull?\n\n 0. toward the pliers\n 1. away from the pliers",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_230.png",
+        "request": "What is the capital of Virginia?\n\n 0. Austin\n 1. Arlington\n 2. Montpelier\n 3. Richmond",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_231.png",
+        "request": "What is the capital of Maryland?\n\n 0. Augusta\n 1. Dover\n 2. Annapolis\n 3. Phoenix",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_232.png",
+        "request": "What is the capital of Missouri?\n\n 0. Salem\n 1. Saint Louis\n 2. Jefferson City\n 3. Kansas City",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_233.png",
+        "request": "Identify the question that Nate's experiment can best answer.\n\n 0. Can pennies hold more drops of water mixed with dish soap or water mixed with hand soap?\n 1. Can pennies hold more drops of pure water or water mixed with hand soap?",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_234.png",
+        "request": "Which ocean is highlighted?\n\n 0. the Indian Ocean\n 1. the Southern Ocean\n 2. the Pacific Ocean\n 3. the Atlantic Ocean",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_235.png",
+        "request": "Which of the following statements is supported by the passage?\n\n 0. Scientists can study air masses to predict weather events.\n 1. Meteorologists are scientists who study meteors.",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_236.png",
+        "request": "Will these magnets attract or repel each other?\n\n 0. attract\n 1. repel",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_237.png",
+        "request": "Which country is highlighted?\n\n 0. Solomon Islands\n 1. the Marshall Islands\n 2. Tonga\n 3. Fiji",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_238.png",
+        "request": "What evidence of an earthquake does this picture show?\n\n 0. Some of the houses have broken roofs and walls.\n 1. The houses have windows.",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_239.png",
+        "request": "Is the following statement about our solar system true or false?\nThree-quarters of the planets are larger than Venus.\n\n 0. false\n 1. true",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_240.png",
+        "request": "In this experiment, which were part of a control group?\n\n 0. the containers that did not get worms\n 1. the containers that got worms",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_241.png",
+        "request": "What instrument does Yo-Yo play?\n\n 0. the violin\n 1. the cello",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_242.png",
+        "request": "Which property do these four objects have in common?\n\n 0. flexible\n 1. salty\n 2. smooth",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_243.png",
+        "request": "What is the capital of Colorado?\n\n 0. Harrisburg\n 1. Denver\n 2. Colorado Springs\n 3. Helena",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_244.png",
+        "request": "Is a rubber balloon a solid, a liquid, or a gas?\n\n 0. a liquid\n 1. a gas\n 2. a solid",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_245.png",
+        "request": "Is the following statement about our solar system true or false?\nThe volume of Mars is more than ten times as large as Mercury's.\n\n 0. true\n 1. false",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_246.png",
+        "request": "What is the capital of Maryland?\n\n 0. Providence\n 1. Baltimore\n 2. Montpelier\n 3. Annapolis",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_247.png",
+        "request": "Which continent is highlighted?\n\n 0. Australia\n 1. Antarctica\n 2. South America\n 3. Asia",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_248.png",
+        "request": "Will these magnets attract or repel each other?\n\n 0. repel\n 1. attract",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_249.png",
+        "request": "What type of rock is conglomerate?\n\n 0. sedimentary\n 1. igneous\n 2. metamorphic",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_250.png",
+        "request": "Which country is highlighted?\n\n 0. Saint Lucia\n 1. Jamaica\n 2. Haiti\n 3. Cuba",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_251.png",
+        "request": "Which of the following could Tyler's test show?\n\n 0. the amount of bacteria in the water before it was filtered\n 1. whether the filter was clogged\n 2. whether an inexpensive filter would become clogged more often",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_252.png",
+        "request": "What can Janet and Kari trade to each get what they want?\n\n 0. Janet can trade her tomatoes for Kari's sandwich.\n 1. Kari can trade her almonds for Janet's tomatoes.\n 2. Kari can trade her broccoli for Janet's oranges.\n 3. Janet can trade her tomatoes for Kari's broccoli.",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_253.png",
+        "request": "Which animal's skin is better adapted as a warning sign to ward off predators?\n\n 0. lionfish\n 1. impala",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_254.png",
+        "request": "Which property matches this object?\n\n 0. translucent\n 1. colorful",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_255.png",
+        "request": "Which property matches this object?\n\n 0. bendable\n 1. bouncy",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_256.png",
+        "request": "Identify the question that Tanner's experiment can best answer.\n\n 0. Can pennies hold more drops of pure water or water mixed with hand soap?\n 1. Can pennies hold more drops of water mixed with dish soap or water mixed with hand soap?",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_257.png",
+        "request": "Identify the question that Barbara's experiment can best answer.\n\n 0. Do the temperatures inside boxes depend on the sizes of the boxes?\n 1. Do the insides of white boxes get hotter than the insides of black boxes when the boxes are left in the sun?",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_258.png",
+        "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnitude of the magnetic force is greater in Pair 2.\n 1. The magnitude of the magnetic force is greater in Pair 1.\n 2. The magnitude of the magnetic force is the same in both pairs.",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_259.png",
+        "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnetic force is stronger in Pair 2.\n 1. The magnetic force is stronger in Pair 1.\n 2. The strength of the magnetic force is the same in both pairs.",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_260.png",
+        "request": "Which animal is also adapted to be camouflaged in a sandy desert?\n\n 0. Namaqua chameleon\n 1. fire salamander",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_261.png",
+        "request": "Which property do these three objects have in common?\n\n 0. shiny\n 1. slippery\n 2. hard",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_262.png",
+        "request": "What is the capital of Iowa?\n\n 0. Jefferson City\n 1. Des Moines\n 2. Madison\n 3. Cedar Rapids",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_263.png",
+        "request": "Does this passage describe the weather or the climate?\n\n 0. climate\n 1. weather",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_264.png",
+        "request": "What is the capital of Iowa?\n\n 0. Davenport\n 1. Helena\n 2. Lansing\n 3. Des Moines",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_265.png",
+        "request": "Which of these continents does the prime meridian intersect?\n\n 0. North America\n 1. Asia\n 2. Africa",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_266.png",
+        "request": "What is the name of the colony shown?\n\n 0. Maryland\n 1. New Jersey\n 2. Virginia\n 3. West Virginia",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_267.png",
+        "request": "Select the organism in the same species as the reticulated python.\n\n 0. Python bivittatus\n 1. Python reticulatus\n 2. Sciurus vulgaris",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_268.png",
+        "request": "During this time, thermal energy was transferred from () to ().\n\n 0. each refrigerator . . . the surroundings\n 1. the surroundings . . . each refrigerator",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_269.png",
+        "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnetic force is weaker in Pair 2.\n 1. The strength of the magnetic force is the same in both pairs.\n 2. The magnetic force is weaker in Pair 1.",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_270.png",
+        "request": "Can Asimina triloba cells make their own food?\n\n 0. yes\n 1. no",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_271.png",
+        "request": "Which of the following was a dependent variable in this experiment?\n\n 0. the amount of oxygen in the tanks\n 1. the species of algae",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_272.png",
+        "request": "Look at the models of molecules below. Select the elementary substance.\n\n 0. cyclopropane\n 1. chloroform\n 2. nitrogen",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_273.png",
+        "request": "Does this passage describe the weather or the climate?\n\n 0. climate\n 1. weather",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_274.png",
+        "request": "Which solution has a higher concentration of blue particles?\n\n 0. neither; their concentrations are the same\n 1. Solution A\n 2. Solution B",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_275.png",
+        "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnitude of the magnetic force is smaller in Pair 1.\n 1. The magnitude of the magnetic force is smaller in Pair 2.\n 2. The magnitude of the magnetic force is the same in both pairs.",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_276.png",
+        "request": "Which country is highlighted?\n\n 0. the Dominican Republic\n 1. Grenada\n 2. Jamaica\n 3. Trinidad and Tobago",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_277.png",
+        "request": "What can Brandon and Derek trade to each get what they want?\n\n 0. Brandon can trade his tomatoes for Derek's broccoli.\n 1. Brandon can trade his tomatoes for Derek's carrots.\n 2. Derek can trade his almonds for Brandon's tomatoes.\n 3. Derek can trade his broccoli for Brandon's oranges.",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_278.png",
+        "request": "What can Connor and Maura trade to each get what they want?\n\n 0. Connor can trade his tomatoes for Maura's carrots.\n 1. Maura can trade her broccoli for Connor's oranges.\n 2. Connor can trade his tomatoes for Maura's broccoli.\n 3. Maura can trade her almonds for Connor's tomatoes.",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_279.png",
+        "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnitude of the magnetic force is greater in Pair 2.\n 1. The magnitude of the magnetic force is the same in both pairs.\n 2. The magnitude of the magnetic force is greater in Pair 1.",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_280.png",
+        "request": "Which month is the coolest on average in Detroit?\n\n 0. January and February\n 1. November and December\n 2. June and July",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_281.png",
+        "request": "Which country is highlighted?\n\n 0. Jamaica\n 1. Saint Lucia\n 2. Barbados\n 3. Saint Vincent and the Grenadines",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_282.png",
+        "request": "Which solution has a higher concentration of green particles?\n\n 0. Solution A\n 1. neither; their concentrations are the same\n 2. Solution B",
+        "response": "2"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_283.png",
+        "request": "Which state is highlighted?\n\n 0. Nebraska\n 1. North Dakota\n 2. Michigan\n 3. Minnesota",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_284.png",
+        "request": "Which better describes the Catoctin Mountain Park ecosystem?\n\n 0. It has cold, wet winters. It also has soil that is rich in nutrients.\n 1. It has cold, wet winters. It also has soil that is poor in nutrients.",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_285.png",
+        "request": "Select the reptile below.\n\n 0. clownfish\n 1. helmeted iguana",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_286.png",
+        "request": "Select the organism in the same genus as the common kestrel.\n\n 0. Falco novaeseelandiae\n 1. Ardea goliath\n 2. Haliaeetus pelagicus",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_287.png",
+        "request": "Which of these cities is marked on the map?\n\n 0. Atlanta\n 1. Los Angeles\n 2. New York City\n 3. Houston",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_288.png",
+        "request": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\n\n 0. neither; the samples have the same temperature\n 1. sample A\n 2. sample B",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_289.png",
+        "request": "Which of the following organisms is the decomposer in this food web?\n\n 0. sea otter\n 1. kelp bass\n 2. black rockfish\n 3. bat star",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_290.png",
+        "request": "Look at the models of molecules below. Select the elementary substance.\n\n 0. fluoromethanol\n 1. tetraphosphorus\n 2. methane",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_291.png",
+        "request": "Will these magnets attract or repel each other?\n\n 0. repel\n 1. attract",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_292.png",
+        "request": "Which air temperature was measured within the outlined area shown?\n\n 0. -24\u00b0C\n 1. 3\u00b0C\n 2. -4\u00b0C",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_293.png",
+        "request": "Which country is highlighted?\n\n 0. Tonga\n 1. Nauru\n 2. the Federated States of Micronesia\n 3. Samoa",
+        "response": "3"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_294.png",
+        "request": "What is the capital of Minnesota?\n\n 0. New Haven\n 1. Saint Paul\n 2. Dover\n 3. Colorado Springs",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_295.png",
+        "request": "Which material is this rocking chair made of?\n\n 0. wood\n 1. silk",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_296.png",
+        "request": "What is the capital of Alabama?\n\n 0. Montgomery\n 1. Columbus\n 2. Oklahoma City\n 3. Birmingham",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_297.png",
+        "request": "What is this archosaur's scientific name?\n\n 0. Effigia okeeffeae\n 1. Effigia nesbitti",
+        "response": "0"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_298.png",
+        "request": "Identify the question that Stanley's experiment can best answer.\n\n 0. Do bananas develop more brown spots when they are kept at room temperature compared to in a cold refrigerator?\n 1. Do bananas develop more brown spots if they are kept in bags with holes compared to bags without holes?",
+        "response": "1"
+    },
+    {
+        "image_path": "datasets/ScienceQA/images/image_299.png",
+        "request": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\n\n 0. The magnitude of the magnetic force is smaller in Pair 1.\n 1. The magnitude of the magnetic force is the same in both pairs.\n 2. The magnitude of the magnetic force is smaller in Pair 2.",
+        "response": "0"
+    }
+]
