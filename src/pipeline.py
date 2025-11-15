@@ -16,79 +16,86 @@ def on_trace_ready(prof, output_path: str):
 
 
 def test_setup(model: torch.nn.Module, data_loader: DataLoader, processor: AutoProcessor, device: str, trace_path: str):
-    with torch.no_grad():
-        model.eval()  # Ensure model is in evaluation mode
-        model.to(device)
+    model.eval()  # Ensure model is in evaluation mode
 
-        scheduler_config = schedule(
-            skip_first=1,
-            wait=1,
-            warmup=1,
-            active=2,
-            repeat=1,
-        )
+    torch.cuda.empty_cache()
 
-        monitor = ZeusMonitor(gpu_indices=[0])
+    scheduler_config = schedule(
+        skip_first=1,
+        wait=1,
+        warmup=1,
+        active=2,
+        repeat=1,
+    )
 
-        # Use CUDA events for more accurate GPU timing
-        starter = torch.cuda.Event(enable_timing=True)
-        ender = torch.cuda.Event(enable_timing=True)
+    monitor = ZeusMonitor(gpu_indices=[0])
 
-        latency_list = []  # Store latency for each batch
-        energy_list = []
-        wer_metric = WordErrorRate()
+    # Use CUDA events for more accurate GPU timing
+    starter = torch.cuda.Event(enable_timing=True)
+    ender = torch.cuda.Event(enable_timing=True)
 
-        if device == 'cuda':
-            activities = [
-                ProfilerActivity.CPU,
-                ProfilerActivity.CUDA,
-            ]
-        else:
-            activities = [
-                ProfilerActivity.CPU,
-            ]
+    latency_list = []  # Store latency for each batch
+    energy_list = []
+    wer_metric = WordErrorRate()
 
-        with profile(
-            activities=activities,
-            schedule=scheduler_config,
-            record_shapes=True,
-            on_trace_ready=lambda p: on_trace_ready(p, trace_path),
-        ) as prof:
-            
-            with torch.no_grad():
-                for data_batch in tqdm(data_loader, desc='Processing data'):
-                    inputs_batch = {k: v.to(device) for k, v in data_batch['input'].items()}
-                    responses_batch = data_batch['response']
+    if device == 'cuda':
+        activities = [
+            ProfilerActivity.CPU,
+            ProfilerActivity.CUDA,
+        ]
+    else:
+        activities = [
+            ProfilerActivity.CPU,
+        ]
 
-                    monitor.begin_window("iteration")
-                    starter.record()
-                    
-                    with record_function('GENERATION_STEP'):
-                        pred = model.generate(**inputs_batch, max_new_tokens=70, do_sample=False)
-                    torch.cuda.synchronize()
-                    
-                    ender.record()
-                    energy_measurement = monitor.end_window("iteration")
+    with profile(
+        activities=activities,
+        schedule=scheduler_config,
+        record_shapes=False,
+        on_trace_ready=lambda p: on_trace_ready(p, trace_path),
+    ) as prof:
+        with torch.inference_mode():
+            for data_batch in tqdm(data_loader, desc='Processing data'):
+                inputs_batch = {k: v.to(device) for k, v in data_batch['input'].items()}
+                responses_batch = data_batch['response']
 
-                    # Record time by sample
-                    latency_list.append(starter.elapsed_time(ender) / len(responses_batch) / 1000)
+                monitor.begin_window("iteration")
+                starter.record()
+                
+                with record_function('GENERATION_STEP'):
+                    pred = model.generate(**inputs_batch, max_new_tokens=50, do_sample=False, return_dict_in_generate=True)
+                torch.cuda.synchronize()
+                
+                ender.record()
+                energy_measurement = monitor.end_window("iteration")
 
-                    # Record energy by sample
-                    energy_list.append(energy_measurement.gpu_energy[0] / len(responses_batch))
+                # Record time by sample
+                latency_list.append(starter.elapsed_time(ender) / 1000)
+                # Record energy by sample
+                energy_list.append(energy_measurement.gpu_energy[0] / len(responses_batch))
 
-                    decoded_preds = [
-                        processor.decode(temp_output[2:], skip_special_tokens=True)
-                        for temp_output in pred
-                    ]
+                decoded_preds = []
 
-                    wer_metric.update(decoded_preds, responses_batch)
+                for temp_output in pred.sequences:
+                    target_phrase = 'ASSISTANT: '
+                    decoded_output = processor.decode(temp_output, skip_special_tokens=True)
+                    decoded_preds.append(decoded_output[decoded_output.find(target_phrase) + len(target_phrase):])
 
-                    prof.step()
+                wer_metric.update(decoded_preds, responses_batch)
 
-        wer_results = wer_metric.compute()
+                prof.step()
 
-        avg_latency_ms = float(np.mean(latency_list))
-        energy_consumption = float(np.mean(energy_list))
+    print(prof.key_averages().table(
+        sort_by="cuda_time_total",
+        row_limit=15,
+    ))
+
+    wer_results = wer_metric.compute()
+
+    avg_latency_ms = float(np.mean(latency_list))
+    energy_consumption = float(np.mean(energy_list))
+
+    try:
         flops, _, _ = calculate_flops(
             model,
             kwargs=inputs_batch,
@@ -96,6 +103,8 @@ def test_setup(model: torch.nn.Module, data_loader: DataLoader, processor: AutoP
             include_backPropagation=False,
             print_results=True,
         )
+    except Exception:
+        flops = None
 
     return {
         'wer_value': wer_results.item(),
