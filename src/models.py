@@ -1,5 +1,5 @@
 import torch
-from transformers import LlavaForConditionalGeneration
+from transformers import LlavaForConditionalGeneration, Qwen2_5_VLForConditionalGeneration
 
 
 def get_model(model_name: str, device: str, optimization: str) -> torch.nn.Module:
@@ -7,11 +7,22 @@ def get_model(model_name: str, device: str, optimization: str) -> torch.nn.Modul
 
     attention_type = 'flash_attention_2' if optimization == 'flash_attn' else 'eager'
 
+    print('Attention type:', attention_type)
+
     if lower_name.startswith('llava'):
         model = LlavaForConditionalGeneration.from_pretrained(
             model_name,
-            torch_dtype=torch.float16,
+            dtype=torch.bfloat16,
             attn_implementation=attention_type,
+            low_cpu_mem_usage=True,
+            device_map=device,
+        )
+    elif lower_name.startswith('qwen'):
+        model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+            model_name,
+            dtype=torch.float16,
+            attn_implementation=attention_type,
+            low_cpu_mem_usage=True,
             device_map=device,
         )
 
