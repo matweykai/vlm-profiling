@@ -50,18 +50,9 @@ class ValidationDataset(Dataset):
 
         truncated_prompt = self._tokenizer.decode(tokenized_prompt['input_ids'])
 
-        # Process image and text, with truncation
-        inputs = self._processor(
-            images=img,
-            text=truncated_prompt,
-            return_tensors='pt',
-            padding=True,
-        )
-
-        inputs = {k: v.squeeze(0) for k, v in inputs.items()}
-
         return {
-            'input': inputs,
+            'input': truncated_prompt,
+            'image': img,
             'response': data_sample['response'],
         }
 

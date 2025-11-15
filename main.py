@@ -18,6 +18,8 @@ def main(parsed_args):
         device=device,
     )
 
+    VISION_TOKENS = 576
+
     if parsed_args.cached:
         print('CACHE IS ON! BE CAREFUL WITH RAM')
 
@@ -29,15 +31,32 @@ def main(parsed_args):
         cached=parsed_args.cached,
     )
 
+    processor = AutoProcessor.from_pretrained(parsed_args.model_name)
+
+    def custom_collate_fn_func(batch):
+        inputs = processor(
+            images=[item['image'] for item in batch],
+            text=[item['input'] for item in batch],
+            return_tensors='pt',
+            padding='max_length',
+            max_length=parsed_args.max_input_len + VISION_TOKENS,
+            padding_side='left',
+        )
+
+        return {
+            'input': inputs,
+            'response': [item['response'] for item in batch],
+        }
+
+
     data_loader = DataLoader(
         dataset,
         batch_size=parsed_args.batch_size,
         shuffle=False,
         num_workers=4,
-        pin_memory=True,
+        pin_memory=False,
+        collate_fn=custom_collate_fn_func,
     )
-
-    processor = AutoProcessor.from_pretrained(parsed_args.model_name)
 
     results_folder = Path(f'results/{parsed_args.model_name.split('/')[1]}_{parsed_args.img_size}_{parsed_args.max_input_len}_{parsed_args.device}_{parsed_args.optimization}_{parsed_args.batch_size}')
     results_folder.mkdir(exist_ok=True)
