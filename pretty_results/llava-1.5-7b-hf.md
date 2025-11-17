@@ -31,6 +31,7 @@ Device: Cuda
 | 8          | 0.971               | 53                  |
 | 16         | 1.624               | 50                  |
 
+![Batch Size plot](/plots/llava-1.5-7b-hf/latency_energy_plot.png)
 
 ## Sequence Length Tests
 

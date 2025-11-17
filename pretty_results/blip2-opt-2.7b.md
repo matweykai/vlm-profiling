@@ -34,6 +34,8 @@ Device: Cuda
 | 8          | 0.069               | 2.3                 |
 | 16         | 0.111               | 2.6                 |
 
+![Batch Size plot](/plots/blip2-opt-2.7b/latency_energy_plot.png)
+
 
 ## Image Size Tests
 

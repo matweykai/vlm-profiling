@@ -36,6 +36,8 @@ Device: Cuda
 | 8          | 0.744               | 14                  |
 | 16         | 0.922               | 10                  |
 
+![Batch Size plot](/plots/blip2-flan-t5-xl/latency_energy_plot.png)
+
 
 ## Image Size Tests
 

@@ -32,6 +32,8 @@ Device: Cuda
 | 8          | 1.352               | 28                  |
 | 16         | 1.431               | 16                  |
 
+![Batch Size plot](/plots/Qwen2.5-VL-3B-Instruct/latency_energy_plot.png)
+
 
 ## Image Size Tests
 

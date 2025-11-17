@@ -33,6 +33,7 @@ Device: Cuda
 | 8          | 0.263               | 7.72                |
 | 16         | 0.260               | 5.02                |
 
+![Batch Size plot](/plots/fuyu-8b/latency_energy_plot.png)
 
 ## Image Size Tests
 
