@@ -46,6 +46,7 @@ Device: Cuda
 | 100          | 3.348 | 1.582        | 11.743    | 1.663             | 8.134   | 1.429           |
 | 50           | 3.348 | 1.569        | 20.299    | 1.603             | 8.134   | 1.432           |
 
+![Sequence length plot](/plots/llava-1.5-7b-hf/latency_seq_plot.png)
 
 ## Optimization Tests
 

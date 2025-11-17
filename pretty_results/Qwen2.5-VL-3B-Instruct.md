@@ -65,6 +65,8 @@ Device: Cuda
 | 100          | 1.996 | 1.431        | 31.729    | 1.399             | 11.116  | 1.416           |
 | 50           | 1.996 | 1.413        | -         | -                 | 11.116  | 1.427           |
 
+![Sequence length plot](/plots/Qwen2.5-VL-3B-Instruct/latency_seq_plot.png)
+
 ## Optimization Tests
 
 Dataset: ScienceQA

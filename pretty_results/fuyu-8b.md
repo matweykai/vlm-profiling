@@ -64,6 +64,7 @@ Device: Cuda
 | 100          | -    | -            | 31.723    | 0.987             | 6.613   | 0.252           |
 | 50           | -    | -            | 29.899    | 0.970             | 6.613   | 0.256           |
 
+![Sequence length plot](/plots/fuyu-8b/latency_seq_plot.png)
 
 ## Optimization Tests
 

@@ -66,6 +66,7 @@ Device: Cuda
 | 100          | 0.995 | 0.122        | 20.883    | 0.103             | 3.753   | 0.115           |
 | 50           | 0.995 | 0.122        | 3.753     | 0.110             | 3.753   | 0.110           |
 
+![Sequence length plot](/plots/blip2-opt-2.7b/latency_seq_plot.png)
 
 ## Optimization Tests
 
