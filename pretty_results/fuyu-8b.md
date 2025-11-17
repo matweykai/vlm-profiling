@@ -1,245 +1,77 @@
-## adept/fuyu-8b
+# adept/fuyu-8b
 
-Базовый конфиг:
-Speed:
-- device - **cuda**
-- optimization - **fp16**
 
-Quality (3 datasets):
-- img_size - **224**
-- batch_size - **1**
-- max_input_len - **200**
+[`adept/fuyu-8b`](https://huggingface.co/adept/fuyu-8b) - это VLM, в которой попытались сделать максимально простую, но эффективную архитектуру. Здесь нет отдельного обработчика визуальных токенов. Они объединяются с текстовыми и напрямую подаются в LLM.
 
 
+## Device Tests
 
+Dataset: TextVQA
+BatchSize: 1
+ImageSize:  224
+SeqLen:  200
+Optimization: fp16
 
-1) batch_size: 1, 4, 8, 16
+| Device | Latency | Energy  | FLOPS   |
+|--------|---------|---------|---------|
+| GPU    | 0.077   | 16.333  | 806.5 G |
+| CPU    | 2.599   | 298.418 | 806.5 G |
 
-1:
-{
-    "wer_value": 6.613953590393066,
-    "latency": 0.07775924057006835,
-    "energy": 16.333873325983685,
-    "flops": "806.5 GFLOPS"
-}
 
-4:
-{
-    "wer_value": 6.613953590393066,
-    "latency": 0.12908639389038087,
-    "energy": 7.782273330688477,
-    "flops": null
-}
+## Batch Tests
 
+Dataset: TextVQA
+ImgSize: 224
+SeqLen:  200
+Optimization: fp16
+Device: Cuda
 
-8:
-{
-    "wer_value": 6.613953590393066,
-    "latency": 0.26331992821944394,
-    "energy": 7.728924337186311,
-    "flops": null
-}
+| batch_size | Latency (per batch) | Energy (per sample) |
+|------------|---------------------|---------------------|
+| 1          | 0.078               | 16.3                |
+| 4          | 0.129               | 7.8                 |
+| 8          | 0.263               | 7.72                |
+| 16         | 0.260               | 5.02                |
 
 
-16:
-{
-    "wer_value": 6.613953590393066,
-    "latency": 0.26069673718904196,
-    "energy": 5.028425438362255,
-    "flops": null
-}
+## Image Size Tests
 
+BatchSize: 16
+SeqLen:  200
+Optimization: fp16
+Device: Cuda
 
+| image_size | COCO | COCO latency | ScienceQA | ScienceQA latency | TextVQA | TextVQA latency |
+|------------|------|--------------|-----------|-------------------|---------|-----------------|
+| 224        | -    | -            | 31.723    | 0.981             | 6.613   | 0.260           |
+| 336        | -    | -            | 31.319    | 1.020             | 6.490   | 0.251           |
+| 448        | -    | -            | 30.069    | 1.141             | 6.486   | 0.400           |
 
-2) Image size
 
-224:
+## Sequence Length Tests
 
-COCO:
+BatchSize: 16
+ImageSize:  224
+Optimization: fp16
+Device: Cuda
 
+| Sequence Len | COCO | COCO latency | ScienceQA | ScienceQA latency | TextVQA | TextVQA latency |
+|--------------|------|--------------|-----------|-------------------|---------|-----------------|
+| 200          | -    | -            | 31.723    | 0.981             | 6.613   | 0.260           |
+| 100          | -    | -            | 31.723    | 0.987             | 6.613   | 0.252           |
+| 50           | -    | -            | 29.899    | 0.970             | 6.613   | 0.256           |
 
-ScienceQA:
-{
-    "wer_value": 31.72333335876465,
-    "latency": 0.9814691740337171,
-    "energy": 20.432679825707485,
-    "flops": null
-}
 
+## Optimization Tests
 
-TextVQA:
-{
-    "wer_value": 6.613953590393066,
-    "latency": 0.26069673718904196,
-    "energy": 5.028425438362255,
-    "flops": null
-}
+Dataset: ScienceQA
+BatchSize: 16
+ImageSize:  224
+SeqLen:  200
+Device: Cuda
 
-
-336:
-
-COCO:
--
-
-
-ScienceQA:
-{
-    "wer_value": 31.31999969482422,
-    "latency": 1.0209658941971629,
-    "energy": 23.07925328978321,
-    "flops": null
-}
-
-
-TextVQA:
-{
-    "wer_value": 6.490697860717773,
-    "latency": 0.25138838677657277,
-    "energy": 6.498414472529762,
-    "flops": null
-}
-
-
-
-448:
-
-COCO:
--
-
-
-ScienceQA:
-{
-    "wer_value": 30.06999969482422,
-    "latency": 1.1410340672543176,
-    "energy": 27.22943311825133,
-    "flops": null
-}
-
-TextVQA:
-{
-    "wer_value": 6.486046314239502,
-    "latency": 0.40042524558619447,
-    "energy": 11.38761622707049,
-    "flops": null
-}
-
-
-3) Input Length (224 image)
-
-200:
-
-COCO:
--
-
-ScienceQA:
-{
-    "wer_value": 31.72333335876465,
-    "latency": 0.9814691740337171,
-    "energy": 20.432679825707485,
-    "flops": null
-}
-
-
-TextVQA:
-{
-    "wer_value": 6.613953590393066,
-    "latency": 0.26069673718904196,
-    "energy": 5.028425438362255,
-    "flops": null
-}
-
-
-
-100:
-
-COCO:
--
-
-ScienceQA:
-{
-    "wer_value": 31.72333335876465,
-    "latency": 0.9878217548571135,
-    "energy": 20.349643641396572,
-    "flops": null
-}
-
-TextVQA:
-{
-    "wer_value": 6.613953590393066,
-    "latency": 0.2522939473202354,
-    "energy": 4.96600109652469,
-    "flops": null
-}
-
-
-50:
-COCO:
--
-
-ScienceQA:
-{
-    "wer_value": 29.899999618530273,
-    "latency": 0.9701102584035772,
-    "energy": 20.038834432238026,
-    "flops": null
-}
-
-TextVQA:
-{
-    "wer_value": 6.613953590393066,
-    "latency": 0.25664792070890724,
-    "energy": 4.980753288980116,
-    "flops": null
-}
-
-
-4) Optimization
-
-ScienceQA 200 16 CUDA
-
-Eagle
-{
-    "wer_value": 31.72333335876465,
-    "latency": 0.9814691740337171,
-    "energy": 20.432679825707485,
-    "flops": null
-}
-
-
-Compile
-{
-    "wer_value": 31.72333335876465,
-    "latency": 0.9722850277549341,
-    "energy": 20.325286180826655,
-    "flops": null
-}
-
-
-Flash
-Can't be used
-
-
-5) GPU vs CPU
-
-GPU
-{
-    "wer_value": 6.613953590393066,
-    "latency": 0.07775924057006835,
-    "energy": 16.333873325983685,
-    "flops": "806.5 GFLOPS"
-}
-
-CPU:
-{
-    "wer_value": 6.609302520751953,
-    "latency": 2.599500489501953,
-    "energy": 298.41865000406904,
-    "flops": "806.5 GFLOPS"
-}
-
-
-
-## По слоям
-- Достаточно тяжёлые свёртки, которые занимают милисекунды времени
-- При увеличении батча нормально скейлится
-- Размер изображения фиксированный
+| Optimization      | Latency | % of original Latency | FLOPS  | % of original FLOPS | Energy | % of original Energy |
+|-------------------|---------|-----------------------|--------|---------------------|--------|----------------------|
+| fp16              | 0.981   | 100                   | 12.9 T | 100                 | 20.432 | 100                  |
+| Compile           | 0.972   | 99                    | 12.7 T | 98                  | 20.325 | 99.4                 |
+| Flash Attention 2 | -       | -                     | -      | -                   | -      | -                    |

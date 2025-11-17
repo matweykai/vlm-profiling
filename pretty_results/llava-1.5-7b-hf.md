@@ -1,181 +1,61 @@
-## llava-hf/llava-1.5-7b-hf
+# llava-hf/llava-1.5-7b-hf
 
-Базовый конфиг:
-Speed:
-- device - **cuda**
-- optimization - **fp16**
+[`llava-hf/llava-1.5-7b-hf`](https://huggingface.co/llava-hf/llava-1.5-7b-hf) - это VLM основанная на модели LLaMA, в которой добавили визуальный проектор. Имеет фиксированный размер изображения, поэтому тестирование по размеру изображений не проводилось.
 
-Quality (3 datasets):
-- img_size - **224**
-- batch_size - **1**
-- max_input_len - **200**
+## Device Tests
 
+Dataset: TextVQA
+BatchSize: 1
+ImageSize:  224
+SeqLen:  200
+Optimization: fp16
 
-
-
-1) batch_size: 1, 4, 8, 16
-
-1:
-
-{
-    "wer_value": 8.134883880615234,
-    "latency": 0.34951892890930175,
-    "energy": 93.81820333957673,
-    "flops": "11.03 TFLOPS"
-}
-
-4:
-
-{
-    "wer_value": 8.181395530700684,
-    "latency": 0.6605584716796875,
-    "energy": 60.31847666581472,
-    "flops": "44.13 TFLOPS"
-}
-
-8:
-{
-    "wer_value": 8.153488159179688,
-    "latency": 0.9708955720600329,
-    "energy": 52.949095393482004,
-    "flops": "88.26 TFLOPS"
-}
-
-16:
-{
-    "wer_value": 8.181395530700684,
-    "latency": 1.6246062718441612,
-    "energy": 49.785277411080244,
-    "flops": "132.39 TFLOPS"
-}
+| Device | Latency | Energy  | FLOPS   |
+|--------|---------|---------|---------|
+| GPU    | 0.349   | 93.818  | 11.03 T |
+| CPU    | 8.373   | 961.269 | 8.58 T  |
 
 
-2) Input Length
+## Batch Tests
 
-200:
+Dataset: TextVQA
+ImgSize: 224
+SeqLen:  200
+Optimization: fp16
+Device: Cuda
 
-COCO:
-{
-    "wer_value": 3.3509600162506104,
-    "latency": 1.8351214214124176,
-    "energy": 54.43341228209044,
-    "flops": "132.39 TFLOPS"
-}
-
-ScienceQA:
-{
-    "wer_value": 10.293333053588867,
-    "latency": 1.7954043161492603,
-    "energy": 53.02778070171674,
-    "flops": "132.39 TFLOPS"
-}
-
-TextVQA:
-{
-    "wer_value": 8.181395530700684,
-    "latency": 1.6246062718441612,
-    "energy": 49.785277411080244,
-    "flops": "132.39 TFLOPS"
-}
+| batch_size | Latency (per batch) | Energy (per sample) |
+|------------|---------------------|---------------------|
+| 1          | 0.349               | 94                  |
+| 4          | 0.660               | 60                  |
+| 8          | 0.971               | 53                  |
+| 16         | 1.624               | 50                  |
 
 
-100:
+## Sequence Length Tests
 
-COCO:
-{
-    "wer_value": 3.348756790161133,
-    "latency": 1.5829825824938324,
-    "energy": 44.44379166552895,
-    "flops": "102.51 TFLOPS"
-}
+BatchSize: 16
+ImageSize:  224
+Optimization: fp16
+Device: Cuda
 
-ScienceQA:
-{
-    "wer_value": 11.743332862854004,
-    "latency": 1.6632482717413652,
-    "energy": 47.85400328876679,
-    "flops": "114.28 TFLOPS"
-}
+| Sequence Len | COCO  | COCO latency | ScienceQA | ScienceQA latency | TextVQA | TextVQA latency |
+|--------------|-------|--------------|-----------|-------------------|---------|-----------------|
+| 200          | 3.351 | 1.835        | 10.293    | 1.795             | 8.181   | 1.624           |
+| 100          | 3.348 | 1.582        | 11.743    | 1.663             | 8.134   | 1.429           |
+| 50           | 3.348 | 1.569        | 20.299    | 1.603             | 8.134   | 1.432           |
 
 
-TextVQA:
-{
-    "wer_value": 8.134883880615234,
-    "latency": 1.4299011391087582,
-    "energy": 41.51552631562216,
-    "flops": "104.31 TFLOPS"
-}
+## Optimization Tests
 
-50:
-COCO:
-{
-    "wer_value": 3.348756790161133,
-    "latency": 1.5691488229851975,
-    "energy": 44.43349122635105,
-    "flops": "102.51 TFLOPS"
-}
+Dataset: ScienceQA
+BatchSize: 16
+ImageSize:  224
+SeqLen:  200
+Device: Cuda
 
-ScienceQA:
-{
-    "wer_value": 20.299999237060547,
-    "latency": 1.6030098234477796,
-    "energy": 45.623339912347625,
-    "flops": "107.9 TFLOPS"
-}
-
-TextVQA:
-{
-    "wer_value": 8.134883880615234,
-    "latency": 1.4329336226613898,
-    "energy": 41.171735747864375,
-    "flops": "104.31 TFLOPS"
-}
-
-3) Optimization
-
-ScienceQA 200 16 CUDA
-
-Eagle
-{
-    "wer_value": 10.293333053588867,
-    "latency": 1.7954043161492603,
-    "energy": 53.02778070171674,
-    "flops": "132.39 TFLOPS"
-}
-
-Compile
-{
-    "wer_value": 10.220000267028809,
-    "latency": 1.6683042763157894,
-    "energy": 48.43908004436577,
-    "flops": "114.28 TFLOPS"
-}
-
-Flash
-{
-    "wer_value": 10.34666633605957,
-    "latency": 2.1963042763157894,
-    "energy": 63.129849782115535,
-    "flops": "111.01 TFLOPS"
-}
-
-4) GPU vs CPU
-
-{
-    "wer_value": 8.134883880615234,
-    "latency": 0.34951892890930175,
-    "energy": 93.81820333957673,
-    "flops": "11.03 TFLOPS"
-}
-
-{
-    "wer_value": 8.195348739624023,
-    "latency": 8.373709375813803,
-    "energy": 961.2696200005213,
-    "flops": "8.58 TFLOPS"
-}
-
-## По слоям
-- Достаточно тяжёлые свёртки, которые занимают милисекунды времени
-- При увеличении батча нормально скейлится
-- Размер изображения фиксированный
+| Optimization      | Latency | % of original Latency | FLOPS    | % of original FLOPS | Energy | % of original Energy |
+|-------------------|---------|-----------------------|----------|---------------------|--------|----------------------|
+| fp16              | 1.795   | 100                   | 132.39 T | 100                 | 53.027 | 100                  |
+| Compile           | 1.668   | 92.9                  | 114.28 T | 86                  | 48.439 | 91.3                 |
+| Flash Attention 2 | 2.196   | 122.3                 | 111.01 T | 83.8                | 63.129 | 119                  |
