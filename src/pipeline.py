@@ -56,7 +56,7 @@ def test_setup(model: torch.nn.Module, data_loader: DataLoader, processor: AutoP
     ) as prof:
         with torch.inference_mode():
             for data_batch in tqdm(data_loader, desc='Processing data'):
-                inputs_batch = {k: v.to(device) for k, v in data_batch['input'].items()}
+                inputs_batch = data_batch['input'].to(device)
                 responses_batch = data_batch['response']
 
                 monitor.begin_window("iteration")

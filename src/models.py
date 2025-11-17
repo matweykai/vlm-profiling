@@ -1,5 +1,13 @@
 import torch
-from transformers import LlavaForConditionalGeneration, Qwen2_5_VLForConditionalGeneration
+from transformers import (
+    LlavaForConditionalGeneration,
+    Qwen2_5_VLForConditionalGeneration,
+    Blip2ForConditionalGeneration,
+    BlipForConditionalGeneration,
+    InstructBlipForConditionalGeneration,
+    FuyuForCausalLM,
+    AutoModelForCausalLM,
+)
 
 
 def get_model(model_name: str, device: str, optimization: str) -> torch.nn.Module:
@@ -25,6 +33,48 @@ def get_model(model_name: str, device: str, optimization: str) -> torch.nn.Modul
             low_cpu_mem_usage=True,
             device_map=device,
         )
+    elif 'instructblip' in lower_name:
+        model = InstructBlipForConditionalGeneration.from_pretrained(
+            model_name,
+            dtype=torch.float16,
+            attn_implementation=attention_type,
+            low_cpu_mem_usage=True,
+            device_map=device,
+        )
+    elif 'blip2' in lower_name:
+        model = Blip2ForConditionalGeneration.from_pretrained(
+            model_name,
+            dtype=torch.float16,
+            attn_implementation=attention_type,
+            low_cpu_mem_usage=True,
+            device_map=device,
+        )
+    elif 'blip' in lower_name:
+        model = BlipForConditionalGeneration.from_pretrained(
+            model_name,
+            dtype=torch.float16,
+            attn_implementation=attention_type,
+            low_cpu_mem_usage=True,
+            device_map=device,
+        )
+    elif 'fuyu' in lower_name:
+        model = FuyuForCausalLM.from_pretrained(
+            model_name,
+            dtype=torch.float16,
+            attn_implementation=attention_type,
+            low_cpu_mem_usage=True,
+            device_map=device,
+        )
+    else:
+        model = AutoModelForCausalLM.from_pretrained(
+            model_name,
+            dtype=torch.float16,
+            attn_implementation=attention_type,
+            low_cpu_mem_usage=True,
+            device_map=device,
+            trust_remote_code=True,
+        )
+        
 
     if optimization == 'compile':
         model = torch.compile(model, mode="reduce-overhead")

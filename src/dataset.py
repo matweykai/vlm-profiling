@@ -15,14 +15,16 @@ class ValidationDataset(Dataset):
         model_name: str,
         json_name: str = 'samples.json',
         cached: bool = True,
+        apply_chat: bool = True,
     ) -> None:
         super().__init__()
         self._src_folder = Path(src_folder)
         self._cached = cached
         self._img_size = img_size
-        self._processor = AutoProcessor.from_pretrained(model_name)
-        self._tokenizer = AutoTokenizer.from_pretrained(model_name)
+        self._processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True)
+        self._tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
         self._max_input_len = max_input_len
+        self._apply_chat = apply_chat
 
         self._labels = self._prepare_labels_from_json(self._src_folder / json_name)
 
@@ -30,17 +32,20 @@ class ValidationDataset(Dataset):
         img = Image.open(data_sample['image_path'])
         img.thumbnail((self._img_size, self._img_size))
 
-        conversation = [
-            {
-                'role': 'user',
-                'content': [
-                    {'type': 'text', 'text': data_sample['request']},
-                    {'type': 'image'},
-                ]
-            }
-        ]
+        if self._apply_chat:
+            conversation = [
+                {
+                    'role': 'user',
+                    'content': [
+                        {'type': 'text', 'text': data_sample['request']},
+                        {'type': 'image'},
+                    ]
+                }
+            ]
 
-        prompt = self._processor.apply_chat_template(conversation, add_generation_prompt=True)
+            prompt = self._processor.apply_chat_template(conversation, add_generation_prompt=True)
+        else:
+            prompt = data_sample['request']
 
         tokenized_prompt = self._tokenizer(
             prompt,
