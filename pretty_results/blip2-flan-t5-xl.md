@@ -85,3 +85,5 @@ Device: Cuda
 | fp16              | 1.100   | 100                   | 10.21 T | 100                 | 11.631 | 100                  |
 | Compile           | 1.098   | 99.8                  | 10.21 T | 100                 | 11.645 | 100.1                |
 | Flash Attention 2 | -       | -                     | -       | -                   | -      | -                    |
+
+![Optimizations plot](/plots/blip2-flan-t5-xl/optimization_bar_plot.png)

@@ -80,3 +80,5 @@ Device: Cuda
 | fp16              | 1.398   | 100                   | 96.3 T | 100                 | 15.913 | 100                  |
 | Compile           | 1.407   | 100.6                 | 96.3 T | 100                 | 16.079 | 101.4                |
 | Flash Attention 2 | 1.939   | 138.7                 | 96.3 T | 100                 | 19.248 | 120.96               |
+
+![Optimizations plot](/plots/Qwen2.5-VL-3B-Instruct/optimization_bar_plot.png)

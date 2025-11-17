@@ -61,3 +61,5 @@ Device: Cuda
 | fp16              | 1.795   | 100                   | 132.39 T | 100                 | 53.027 | 100                  |
 | Compile           | 1.668   | 92.9                  | 114.28 T | 86                  | 48.439 | 91.3                 |
 | Flash Attention 2 | 2.196   | 122.3                 | 111.01 T | 83.8                | 63.129 | 119                  |
+
+![Optimizations plot](/plots/llava-1.5-7b-hf/optimization_bar_plot.png)

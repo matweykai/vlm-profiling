@@ -79,3 +79,5 @@ Device: Cuda
 | fp16              | 0.981   | 100                   | 12.9 T | 100                 | 20.432 | 100                  |
 | Compile           | 0.972   | 99                    | 12.7 T | 98                  | 20.325 | 99.4                 |
 | Flash Attention 2 | -       | -                     | -      | -                   | -      | -                    |
+
+![Optimizations plot](/plots/fuyu-8b/optimization_bar_plot.png)
