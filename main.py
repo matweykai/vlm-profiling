@@ -18,10 +18,11 @@ def main(parsed_args):
         device=device,
     )
 
-    VISION_TOKENS = 576
-
     if parsed_args.cached:
         print('CACHE IS ON! BE CAREFUL WITH RAM')
+
+    if not parsed_args.apply_chat_template:
+        print('BE CAREFULL CHAT_TEMPLATE IS NOT USED')
 
     dataset = ValidationDataset(
         src_folder=parsed_args.src_folder,
@@ -29,17 +30,17 @@ def main(parsed_args):
         max_input_len=parsed_args.max_input_len,
         model_name=parsed_args.model_name,
         cached=parsed_args.cached,
+        apply_chat=parsed_args.apply_chat_template,
     )
 
-    processor = AutoProcessor.from_pretrained(parsed_args.model_name)
+    processor = AutoProcessor.from_pretrained(parsed_args.model_name, trust_remote_code=True)
 
     def custom_collate_fn_func(batch):
         inputs = processor(
             images=[item['image'] for item in batch],
             text=[item['input'] for item in batch],
             return_tensors='pt',
-            padding='max_length',
-            max_length=parsed_args.max_input_len + VISION_TOKENS,
+            padding=True,
             padding_side='left',
         )
 
@@ -120,6 +121,13 @@ def parse_args():
         type=int,
         required=True,
         help='Maximum input sequence length for the model'
+    )
+
+    parser.add_argument(
+        '--apply_chat_template',
+        default=False,
+        action='store_true',
+        help='Whether to use chat template (default: False)'
     )
     
     parser.add_argument(
