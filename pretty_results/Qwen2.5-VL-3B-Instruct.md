@@ -49,6 +49,8 @@ Device: Cuda
 | 336        | 1.786 | 1.571        | 31.716    | 1.501             | 11.058  | 1.563           |
 | 448        | 1.725 | 1.773        | 30.753    | 1.624             | 10.958  | 1.799           |
 
+![Image Size plot](/plots/Qwen2.5-VL-3B-Instruct/latency_img_size_plot.png)
+
 
 ## Sequence Length Tests
 

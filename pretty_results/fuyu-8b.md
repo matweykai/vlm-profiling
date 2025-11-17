@@ -48,6 +48,8 @@ Device: Cuda
 | 336        | -    | -            | 31.319    | 1.020             | 6.490   | 0.251           |
 | 448        | -    | -            | 30.069    | 1.141             | 6.486   | 0.400           |
 
+![Image Size plot](/plots/fuyu-8b/latency_img_size_plot.png)
+
 
 ## Sequence Length Tests
 

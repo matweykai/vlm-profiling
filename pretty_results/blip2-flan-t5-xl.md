@@ -53,6 +53,9 @@ Device: Cuda
 | 448        | 0.874 | 0.460        | 9.359     | 1.082             | 2.755   | 0.990           |
 
 
+![Image Size plot](/plots/blip2-flan-t5-xl/latency_img_size_plot.png)
+
+
 ## Sequence Length Tests
 
 BatchSize: 16

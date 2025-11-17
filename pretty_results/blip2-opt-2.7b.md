@@ -50,6 +50,8 @@ Device: Cuda
 | 336        | 0.994 | 0.116        | 20.883    | 0.100             | 3.751   | 0.084           |
 | 448        | 0.993 | 0.120        | 20.883    | 0.101             | 3.751   | 0.105           |
 
+![Image Size plot](/plots/blip2-opt-2.7b/latency_img_size_plot.png)
+
 
 ## Sequence Length Tests
 
